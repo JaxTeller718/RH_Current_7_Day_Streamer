@@ -3259,7 +3259,7 @@
 		<item group="banditArmor" count="1,2" prob="0.5"/>
 		<item group="heavyArmor" count="1,2" prob="0.5"/>
 		<item group="militaryArmor" count="1,2" prob="0.5"/>
-		<item group="craftingTools" count="1" prob="0.15"/>
+		<item group="craftingTools" count="1" prob="0.09"/>
 		<item group="weaponsironBow+ammo"/>
 		<item group="weaponsironCrossbow+ammo" prob="0.05"/>
 		<item group="hazmatGear"  prob="0.15"/>
@@ -4233,7 +4233,7 @@
 		<item group="rareOres" prob="0.05"/>
 		<item name="forgedSteel" count="3,8" prob="0.2"/>
 		<item name="forgedIron" count="5,10" prob="0.25"/>
-		<item group="craftingTools" count="1" prob="0.05"/>
+		<item group="craftingTools" count="1" prob="0.015"/>
 		<item name="casinoCoin" count="40,600" prob="0.35"/>
 		<item name="knowledgePoint" count="1,2" prob="0.15"/>
 		<item name="car_parts" count="1,5" prob="0.15"/>

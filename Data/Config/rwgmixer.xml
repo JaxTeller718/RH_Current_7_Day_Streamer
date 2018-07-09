@@ -469,15 +469,6 @@
 			<prefab name="owl79_exfarmstead" max_count="2"/>
 			<prefab name="ravenhearst_xcostum_OtherHGHouse(by_Unknown)" max_count="1"/>
 			<prefab name="ravenhearst_xcostum_BigRed(by_BLAPLAYGIRL)" max_count="1"/>
-			<prefab name="ravenhearst_xcostum_House_AF02R(19x35)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF03D(37x54)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF03R(37x53)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF04D(15x15)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF04R(15x15)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF05D(14x17)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF05R(14x17)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF06D(29x30)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF06R(29x30)(by_Nodabba)" max_count="1"/>
 			<prefab name="xcostum_Bunker1(by_LazMan)" max_count="1"/>
 			<prefab name="xcostum_Bunker2(by_LazMan)" max_count="1"/>
 			<prefab name="ravenhearst_xcostum_Bunker3(by_LazMan)" max_count="1"/>
@@ -562,11 +553,6 @@
 			<prefab name="owl79_housewhiteblue" max_count="2"/>
 			<prefab name="owl79_modernvilla" max_count="2"/>
 			<prefab name="owl79_townvilla" max_count="2"/>
-			<prefab name="xcostum_House_AF01P(19x35)(by_Nodabba)" max_count="1"/>
-			<prefab name="ravenhearst_xcostum_House_AF02P(17x16)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF03P(35x54)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF04P(15x15)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF05P(14x19)(by_Nodabba)" max_count="1"/>
 			<prefab name="xcostum_Car_Dealership_new(by_p1ut0nium)" max_count="2"/>
 			<prefab name="xcostum_Dark_Mausoleum32(by_LuckyStar)" max_count="1"/>
 			<prefab name="xcostum_Church(by_Guppycur)" max_count="2"/>

@@ -26130,7 +26130,7 @@
 			<property name="Gain_wellness" value="400" />
 			<property name="Sound_start" value="player_painkillers" />
 			<property name="Buff" value="medicalsplint,firstAid,blackPillBuff" />
-			<property name="Debuff" value="sprainedLeg,burningSmall,brokenLeg,burning,burningMolotov,infection,infection1,infection2,infection3,dysentery,dysentery2,bleeding,venomActivator,arrowCriticalBleedout,biteMark,Dirty1,Dirty2,bleedingBurningSmall" />
+			<property name="Debuff" value="sprainedLeg,burningSmall,brokenLeg,burning,burningMolotov,infection,infection1,infection2,infection3,dysentery,dysentery2,bleeding,snakeBite,arrowCriticalBleedout,biteMark,Dirty1,Dirty2,bleedingBurningSmall" />
 		</property>
 		<property name="Group" value="Special Items" />
 	</item>

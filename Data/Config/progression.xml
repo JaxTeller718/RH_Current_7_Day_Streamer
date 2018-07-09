@@ -203,7 +203,7 @@
 				<setvalue skill_level="4" value="3"/>
 			</effect>
 		</perk>
-		<crafting_skill name="Locksmith" exp_to_level="100" icon="misc_crafting" description_key="locksmithDesc" title_key="Locksmith" group="science">
+		<crafting_skill name="Locksmith" exp_to_level="200" icon="misc_crafting" description_key="locksmithDesc" title_key="Locksmith" group="science">
 			<effect name="CraftingTime">
 				<multiply skill_level="1,20" value="1.00,0.76" />
 				<multiply skill_level="20,40" value="0.76,0.66" />
@@ -1435,10 +1435,6 @@
 			<recipe name="cntworkingOven" unlock_level="2"/>
 			<recipe name="cntworkingWallOven" unlock_level="2"/>
 		</perk>
-		<perk name="Research Desk" icon="resource" description_key="researchDeskPerkDesc" title_key="researchDeskPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="science">
-			<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="4"/>
-			<recipe name="ResearchDesk" unlock_level="1"/>
-		</perk>
 		<player_skill name="Medicine" exp_to_level="200" icon="medical" description_key="medicineDesc" title_key="medicine" group="health">
 			<effect name="HealthGain">
 				<multiply skill_level="1,10" value="1.00,1.32"/>
@@ -2331,13 +2327,19 @@
 			<requirement skill_level="3" required_skill_name="AmmoClass" required_skill_level="1" required_player_level="30"/>
 			<recipe name="32mmBulletHP" unlock_level="3"/>
 		</perk>
-		<perk name="556mm Round Crafting" icon="gunsmithing" description_key="556mmRoundCraftingPerkDesc" title_key="556mmRoundCraftingPerk" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">
+		<perk name="556mm Round Crafting" icon="gunsmithing" description_key="556mmRoundCraftingPerkDesc" title_key="556mmRoundCraftingPerk" max_level="2" skill_point_cost_multiplier="0" skill_point_cost_per_level="5" group="firearms">
 			<requirement skill_level="1" required_skill_name="AmmoClass" required_skill_level="1" required_player_level="5"/>
 			<recipe name="556mmBullet" unlock_level="1"/>
 			<requirement skill_level="2" required_skill_name="AmmoClass" required_skill_level="1" required_player_level="15"/>
-			<recipe name="556mmBulletINC" unlock_level="2"/>
-			<requirement skill_level="3" required_skill_name="AmmoClass" required_skill_level="1" required_player_level="30"/>
 			<recipe name="556mmBulletHP" unlock_level="3"/>
+		</perk>
+		
+		<perk name="UltimateSurvivor" icon="ui_game_symbol_thesurvivor" description_key="UltimateSurvivorPerkDesc" title_key="UltimateSurvivorPerk" max_level="1" skill_point_cost_per_level="0" skill_point_cost_multiplier="0" group="health"/>
+		<perk name="The Ultimate Survivor Skills" icon="ui_game_symbol_thesurvivor" description_key="theUltimateSurvivorPerkDesc" title_key="theUltimateSurvivorSkillsPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="health">
+			<requirement skill_level="1" required_skill_name="UltimateSurvivor" required_skill_level="1"/>
+			<recipe name="Twine" unlock_level="1"/>
+			<recipe name="Crowbar" unlock_level="1"/>
+			<recipe name="animalTrapEmpty" unlock_level="1"/>
 		</perk>
 	</skills>
 </progression>

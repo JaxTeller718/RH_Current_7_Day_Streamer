@@ -265,14 +265,7 @@
 	<recipe name="scrapIronSheet" count="1">
 		<ingredient name="scrapIron" count="40"/>
 	</recipe>
-	<recipe name="scrapHatch_v1" count="1">
-		<ingredient name="scrapIron" count="40"/>
-		<ingredient name="screws" count="4"/>
-		<ingredient name="doorHinge" count="2"/>
-	</recipe>
-	<recipe name="scrapIronLogSpike4" count="1">
-		<ingredient name="scrapIron" count="40"/>
-	</recipe>
+
 	<recipe name="secureDoorWooden" count="1">
 		<ingredient name="wood" count="4"/>
 		<ingredient name="scrapIronNails" count="2"/>
@@ -325,7 +318,7 @@
 	</recipe>
 	<recipe name="rhwoodSpikes" count="1">
 		<ingredient name="wood" count="15"/>
-		<ingredient name="Twine" count="4"/>
+		<ingredient name="yuccaFibers" count="10"/>
 	</recipe>
 	<recipe name="rhwoodSpikesWall" count="1">
 		<ingredient name="wood" count="20"/>
@@ -3334,11 +3327,7 @@
 		<ingredient name="gunPowder" count="3"/>
 		<ingredient name="556mmBulletCasing" count="1" />
 	</recipe>
-	<recipe name="556mmBulletINC" count="1" craft_area="ammunitionTable">
-		<ingredient name="HollowTip" count="1" />
-		<ingredient name="gunPowder" count="3"/>
-		<ingredient name="556mmBulletCasing" count="1" />
-	</recipe>
+
 	<recipe name="32mmBulletHP" count="1" craft_area="ammunitionTable">
 		<ingredient name="HollowTip" count="1" />
 		<ingredient name="gunPowder" count="1"/>
@@ -4116,18 +4105,7 @@
 		<ingredient name="ductTape" count="5"/>
 		<ingredient name="scrapPlastics" count="4"/>
 	</recipe>
-	<recipe name="vaultDoor01" count="1"  craft_area="advancedWorkbench">
-		<ingredient name="steelPlating" count="1"/>
-		<ingredient name="spring" count="2"/>
-		<ingredient name="screws" count="4"/>
-		<ingredient name="doorHinge" count="2"/>
-	</recipe>
-	<recipe name="vaultHatch_v1" count="1"  craft_area="advancedWorkbench">
-		<ingredient name="steelPlating" count="1"/>
-		<ingredient name="spring" count="2"/>
-		<ingredient name="screws" count="4"/>
-		<ingredient name="doorHinge" count="2"/>
-	</recipe>
+
 	<recipe name="jailDoor" count="1"  craft_area="advancedWorkbench">
 		<ingredient name="steelPlating" count="1"/>
 		<ingredient name="spring" count="2"/>
@@ -6162,7 +6140,7 @@
 		<ingredient name="woodPlanks" count="10"/>
 		<ingredient name="nail" count="10"/>
 	</recipe>
-	<recipe name="cntSecureStorageChest1" count="1" craft_area="carpentryStation">
+	<recipe name="cntSecureStorageChest1" count="1">
 		<ingredient name="wood" count="10"/>
 	</recipe>
 	<recipe name="cntStorageGeneric" count="1" craft_area="carpentryStation">
@@ -6229,5 +6207,20 @@
 	<recipe name="minibikeRim" count="1" craft_area="blacksmithsForge" material_based="true">
 		<ingredient name="unit_iron" count="150"/>
 		<ingredient name="unit_clay" count="50"/>
+	</recipe>
+	<recipe name="Twine" count="2" >
+		<ingredient name="yuccaFibers" count="1"/>
+		<ingredient name="cloth" count="1"/>
+	</recipe>
+	<recipe name="Crowbar" count="1" craft_area="advancedWorkbench">
+		<ingredient name="forgedSteel" count="50"/>
+	</recipe>
+	<recipe name="animalTrapEmpty" count="1" craft_area="advancedWorkbench">
+		<ingredient name="forgedSteel" count="25"/>
+		<ingredient name="mechanicalParts" count="4"/>
+		<ingredient name="spring" count="5"/>
+	</recipe>
+	<recipe name="charcoal" count="15" >
+		<ingredient name="bagOfCharcoal" count="1"/>
 	</recipe>
 </recipes>

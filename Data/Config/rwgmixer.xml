@@ -204,7 +204,7 @@
 		<prefab_rule name="MINI_RURAL_POIS">
 			<prefab name="ravenhearst_xcostum_WulftownA(by_WereWulfen)" max_count="1"/>
 			<prefab name="football_stadium" max_count="1"/>
-			<prefab name="xcostum_NotreDamn_(by_tehkarma)" max_count="1"/>
+			<prefab name="ravenhearst_xcostum_NotreDamn_(by_tehkarma)" max_count="1"/>
 			<prefab name="store_gun_sm_01" max_count="2"/>
 			<prefab name="store_gun_lg_01" max_count="2"/>
 			<prefab name="store_pharmacy_sm_01" max_count="2"/>
@@ -513,7 +513,7 @@
 			<prefab name="ravenhearst_xcostum_Hospital(by_Wsiegel)" max_count="1"/>
 			<prefab name="xcostum_Park(by_Guppycur)" max_count="2"/>
 			<prefab name="ravenhearst_xcostum_house_number14(by_Kam)" max_count="2"/>
-			<prefab name="xcostum_NotreDamn_(by_tehkarma)" max_count="1"/>
+			<prefab name="ravenhearst_xcostum_NotreDamn_(by_tehkarma)" max_count="1"/>
 			<prefab name="xcostum_Woodhouse(by_Tom)" max_count="1"/>
 			<prefab name="xcostum_Redhouse(by_Tom)" max_count="1"/>
 		</prefab_rule>
@@ -597,7 +597,7 @@
 			<prefab name="xcostum_house_modern_03(by_Kam)" max_count="2"/>
 			<prefab name="xcostum_house_modern_04(by_Kam)" max_count="2"/>
 			<prefab name="xcostum_house_modern_05(by_Kam)" max_count="2"/>
-			<prefab name="xcostum_NotreDamn_(by_tehkarma)" max_count="1"/>
+			<prefab name="ravenhearst_xcostum_NotreDamn_(by_tehkarma)" max_count="1"/>
 			<prefab name="ravenhearst_xcostum_Stonehouse01(by_Tom)" max_count="1"/>
 			<prefab name="ravenhearst_xcostum_Hostel_destroyed(by_Tom)" max_count="2"/>
 			<prefab name="ravenhearst_xcostum_Villa(by_Tom)" max_count="1"/>
@@ -677,7 +677,7 @@
 			<prefab name="ravenhearst_xcostum_Apartment_Stores(by_Laz_Man)" max_count="2"/>
 			<prefab name="xcostum_Asia_Restaurant_city(by_Redlotus)" max_count="1"/>
 			<prefab name="xcostum_Courthouse(by_stallionsden)" max_count="1"/>
-			<prefab name="xcostum_NotreDamn_(by_tehkarma)" max_count="1"/>
+			<prefab name="ravenhearst_xcostum_NotreDamn_(by_tehkarma)" max_count="1"/>
 			<prefab name="ravenhearst_xcostum_bridgesideapartmentsA16(by_Batman)" max_count="1"/>
 			<prefab name="xcostum_Spirallibrary(by_Tom)" max_count="1"/>
 			<prefab name="ravenhearst_xcostum_GhostbustersHQ(by_DestroyTheBrain)" max_count="1"/>

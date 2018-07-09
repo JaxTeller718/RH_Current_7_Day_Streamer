@@ -2308,10 +2308,10 @@
 		<property class="Action0">
 			<property name="Delay" value="0.7" />
 			<property name="Range" value="1.1" />
-			<property name="DamageEntity" value="10" />
-			<property name="DamageBlock" value="20" />
+			<property name="DamageEntity" value="5" />
+			<property name="DamageBlock" value="10" />
 			<property name="Buff" value="biteMark" />
-			<property name="Buff_chance" value="0.3" />
+			<property name="Buff_chance" value="0.05" />
 			<property name="DamageBonus.earth" value="4" />
 		</property>
 	</item>
@@ -4129,9 +4129,9 @@
 			<property name="Crosshair_min_distance" value="7" />
 			<property name="Crosshair_max_distance" value="9" />
 			<property name="Magazine_size" value="30" />
-			<property name="Magazine_items" value="9mmBullet,9mmBulletINC,9mmBulletHP,Unload" />
-			<property name="Magazine_item_ray_counts" value="1,1,1" />
-			<property name="Magazine_item_ray_spreads" value="0,0,0" />
+			<property name="Magazine_items" value="9mmBullet,9mmBulletHP,Unload" />
+			<property name="Magazine_item_ray_counts" value="1,1" />
+			<property name="Magazine_item_ray_spreads" value="0,0" />
 			<property name="Reload_time" value="4.1" />
 			<property name="Bullet_icon" value="uzi" />
 			<property name="Sound_start" value="mp5_fire_start" />
@@ -4275,9 +4275,9 @@
 			<property name="Crosshair_min_distance" value="13" />
 			<property name="Crosshair_max_distance" value="16" />
 			<property name="Magazine_size" value="30" />
-			<property name="Magazine_items" value="762mmBullet,762mmBulletINC,762mmBulletHP,Unload" />
-			<property name="Magazine_item_ray_counts" value="1,1,1" />
-			<property name="Magazine_item_ray_spreads" value="0,0,0" />
+			<property name="Magazine_items" value="762mmBullet,762mmBulletHP,Unload" />
+			<property name="Magazine_item_ray_counts" value="1,1" />
+			<property name="Magazine_item_ray_spreads" value="0,0" />
 			<property name="Reload_time" value="3.9" />
 			<property name="Bullet_icon" value="uzi" />
 			<property name="Sound_start" value="ak47_fire_start" />
@@ -5017,9 +5017,9 @@
 			<property name="Sound_reload" value="mg_reload" />
 			<property name="Horde_meter_rate" value="3.5" />
 			<property name="Horde_meter_distance" value="25" />
-			<property name="Magazine_items" value="556mmBullet,556mmBulletINC,556mmBulletHP,Unload" />
-			<property name="Magazine_item_ray_counts" value="1,1,1" />
-			<property name="Magazine_item_ray_spreads" value="0,0,0" />
+			<property name="Magazine_items" value="556mmBullet,556mmBulletHP,Unload" />
+			<property name="Magazine_item_ray_counts" value="1,1" />
+			<property name="Magazine_item_ray_spreads" value="0,0" />
 			<property name="Bullet_icon" value="uzi" />
 			<property name="Particles_muzzle_fire" value="nozzleflashuzi" />
 			<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi" />
@@ -20003,7 +20003,7 @@
 			<property name="Gain_health" value="0" />
 			<property name="Gain_food" value="6" />
 			<property name="Gain_water" value="0" />
-			<property name="Gain_wellness" value="0.05" />
+			<property name="Gain_wellness" value="-0.025" />
 			<property name="Sound_start" value="player_eating" />
 		</property>
 		<property name="Group" value="Meals,Food/Cooking" />
@@ -24581,7 +24581,7 @@
 		<property name="Weight" value="5" />
 		<property name="HoldType" value="45" />
 		<property name="Stacknumber" value="5000" />
-		<property name="FuelValue" value="175" />
+		<property name="FuelValue" value="250" />
 		<property name="EconomicValue" value="5" />
 		<property name="EconomicBundleSize" value="50" />
 		<property name="SellableToTrader" value="false" />
@@ -26682,6 +26682,7 @@
 	<!--     ********************************* ******************************Lockpicking**************************** ********************************* -->
 	<item id="1590" name="CZLockPickKit01">
 		<property name="Meshfile" value="#lockpick?pickLock" />
+		<property name="CustomIcon" value="CZLockPickKit01" />
 		<property name="Material" value="metal" />
 		<property name="HoldType" value="36" />
 		<property name="SoundDestroy" value="wooddestroy1" />
@@ -26707,6 +26708,8 @@
 	</item>
 	<item id="1591" name="CZLockPickKit02">
 		<property name="Meshfile" value="#lockpick?pickLock" />
+		<property name="CustomIcon" value="CZLockPickKit02" />
+		<property name="CustomIconTint" value="FF0000" />
 		<property name="Material" value="metal" />
 		<property name="HoldType" value="36" />
 		<property name="SoundDestroy" value="wooddestroy1" />
@@ -26732,6 +26735,8 @@
 	</item>
 	<item id="1592" name="CZLockPickKit03">
 		<property name="Meshfile" value="#lockpick?pickLock" />
+		<property name="CustomIcon" value="CZLockPickKit03" />
+		<property name="CustomIconTint" value="A2A41B" />
 		<property name="Material" value="metal" />
 		<property name="HoldType" value="36" />
 		<property name="SoundDestroy" value="wooddestroy1" />
@@ -26757,6 +26762,8 @@
 	</item>
 	<item id="1593" name="CZLockPickKit04">
 		<property name="Meshfile" value="#lockpick?pickLock" />
+		<property name="CustomIcon" value="CZLockPickKit04" />
+		<property name="CustomIconTint" value="A42ACC" />
 		<property name="Material" value="metal" />
 		<property name="HoldType" value="36" />
 		<property name="SoundDestroy" value="wooddestroy1" />
@@ -26782,6 +26789,7 @@
 	</item>
 	<item id="1594" name="CZlockpick01">
 		<property name="Meshfile" value="#RHWeapons?lockpickPrefab" />
+		<property name="CustomIcon" value="CZlockpick01" />
 		<property name="Material" value="metal" />
 		<property name="HoldType" value="36" />
 		<property name="Stacknumber" value="500" />
@@ -26791,6 +26799,8 @@
 	</item>
 	<item id="1595" name="CZlockpick02">
 		<property name="Meshfile" value="#RHWeapons?lockpick02" />
+		<property name="CustomIcon" value="CZlockpick02" />
+		<property name="CustomIconTint" value="FF0000" />
 		<property name="Material" value="metal" />
 		<property name="HoldType" value="36" />
 		<property name="Stacknumber" value="500" />
@@ -26800,6 +26810,8 @@
 	</item>
 	<item id="1596" name="CZlockpick03">
 		<property name="Meshfile" value="#RHWeapons?lockpick03" />
+		<property name="CustomIcon" value="CZlockpick03" />
+		<property name="CustomIconTint" value="A2A41B" />
 		<property name="Material" value="metal" />
 		<property name="HoldType" value="36" />
 		<property name="Stacknumber" value="500" />
@@ -26809,6 +26821,8 @@
 	</item>
 	<item id="1597" name="CZlockpick04">
 		<property name="Meshfile" value="#RHWeapons?lockpick04" />
+		<property name="CustomIcon" value="CZlockpick04" />
+		<property name="CustomIconTint" value="A42ACC" />
 		<property name="Material" value="metal" />
 		<property name="HoldType" value="36" />
 		<property name="Stacknumber" value="500" />
@@ -26937,9 +26951,9 @@
 			<property name="Crosshair_min_distance" value="7" />
 			<property name="Crosshair_max_distance" value="9" />
 			<property name="Magazine_size" value="30" />
-			<property name="Magazine_items" value="9mmBullet,9mmBulletINC,9mmBulletHP,Unload" />
-			<property name="Magazine_item_ray_counts" value="1,1,1" />
-			<property name="Magazine_item_ray_spreads" value="0.85,0.85,0.85" />
+			<property name="Magazine_items" value="9mmBullet,9mmBulletHP,Unload" />
+			<property name="Magazine_item_ray_counts" value="1,1" />
+			<property name="Magazine_item_ray_spreads" value="0.85,0.85" />
 			<property name="Reload_time" value="4.1" />
 			<property name="Bullet_icon" value="uzi" />
 			<property name="Sound_start" value="mp5_fire_start" />
@@ -28280,5 +28294,22 @@
 		<property name="Group" value="Science" />
 		<property name="SellableToTrader" value="false" />
 		<property name="ItemWeight" value="1" />
+	</item>
+	<item id="1668" name="bagOfCharcoal">
+		<property name="Meshfile" value="Items/Misc/sackPrefab" />
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="CustomIcon" value="bagOfCharcoal" />
+		<property name="Material" value="wood" />
+		<property name="Weight" value="5" />
+		<property name="HoldType" value="45" />
+		<property name="Stacknumber" value="100" />
+		<property name="FuelValue" value="500" />
+		<property name="EconomicValue" value="5" />
+		<property name="EconomicBundleSize" value="50" />
+		<property name="SellableToTrader" value="false" />
+		<property name="ItemWeight" value="50" />
+		<property name="Group" value="Resources" />
+		<property name="DescriptionKey" value="bagOfCharcoalDesc" />
+		<property name="CraftingIngredientTime" value="0.25" />
 	</item>
 </items>

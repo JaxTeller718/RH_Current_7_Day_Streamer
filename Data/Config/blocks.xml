@@ -20520,8 +20520,8 @@
 	<block id="78" name="rhwoodSpikes">
 		<!-- 6 stages total -->
 		<property name="Class" value="TrunkTip"/>
-		<property name="Damage" value="1"/>
-		<property name="Damage_received" value="9"/>
+		<property name="Damage" value="2"/>
+		<property name="Damage_received" value="7"/>
 		<property name="CustomIcon" value="rhwoodSpikes"/>
 		<!-- due to passthrough damage this must be exactly equal to the block hit points -->
 		<property name="Material" value="RHSpikes1"/>
@@ -20544,8 +20544,8 @@
 	</block>
 	<block id="79" name="rhwoodSpikesDamaged">
 		<property name="Class" value="TrunkTip"/>
-		<property name="Damage" value="1"/>
-		<property name="Damage_received" value="9"/>
+		<property name="Damage" value="2"/>
+		<property name="Damage_received" value="7"/>
 		<property name="CustomIcon" value="rhwoodSpikes"/>
 		<!-- due to passthrough damage this must be exactly equal to the block hit points -->
 		<property name="Material" value="RHSpikes1"/>
@@ -20576,8 +20576,8 @@
 		<!-- 6 stages total -->
 		<property name="Class" value="TrunkTip"/>
 		<property name="CustomIcon" value="rhwoodSpikesWall"/>
-		<property name="Damage" value="1"/>
-		<property name="Damage_received" value="9"/>
+		<property name="Damage" value="2"/>
+		<property name="Damage_received" value="7"/>
 		<!-- due to passthrough damage this must be exactly equal to the block hit points -->
 		<property name="Material" value="RHSpikes1"/>
 		<property name="Shape" value="ModelEntity"/>
@@ -20600,8 +20600,8 @@
 	</block>
 	<block id="88" name="rhwoodSpikesWallDamaged">
 		<property name="Class" value="TrunkTip"/>
-		<property name="Damage" value="1"/>
-		<property name="Damage_received" value="9"/>
+		<property name="Damage" value="2"/>
+		<property name="Damage_received" value="7"/>
 		<!-- due to passthrough damage this must be exactly equal to the block hit points -->
 		<property name="Material" value="RHSpikes1"/>
 		<property name="Shape" value="ModelEntity"/>
@@ -20982,8 +20982,9 @@
 		<property name="LootList" value="248" />
 	</block>
 	<block id="1686" name="boltAutoTurret">
-		<property name="CustomIcon" value="famasAutoTurret"/>
+		<property name="CustomIcon" value="boltAutoTurret"/>
 		<property name="Class" value="Ranged"/>
+		<property name="DescriptionKey" value="boltautoTurretDesc"/>
 		<property name="Material" value="Mmetal_medium"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Mesh" value="models"/>

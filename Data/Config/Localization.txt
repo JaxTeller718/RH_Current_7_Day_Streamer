@@ -717,7 +717,7 @@ woodFrameRamp,blocks,Block,KgNone,Wood Frame Ramp,Rampe avec structure en bois,H
 woodFrameWedge,blocks,Block,KgNone,Wood Frame Wedge,Pente avec structure en bois,Holzrahmen – Schräge,,Cuña de estructura de madera
 woodHalf,blocks,Block,KgNone,Wood 1/2 Block,1/2 de bloc de bois,1/2 Holzblock,,Mitad de madera
 woodHatch1_v1,blocks,Block,KgNone,Wooden Hatch,Trappe en bois,Holzklappe,,Escotilla de madera
-woodHatch1_v1Desc,blocks,Block,KgNone,Press & hold [activate] to lock it or set a combination. Upgrade & repair with wood and a construction tool using the secondary action.,Maintenez [activate] pour la verrouiller ou définir un code. Elle peut être améliorée et réparée à l'aide de bois et d'un outil de construction grâce à l'action secondaire.,Zum Verschließen oder Kombination eingeben [activate] gedrückt halten. Kann mit Holz und Bauwerkzeugen unter Verwendung der sekundären Aktion aufgewertet und repariert werden.,,Mantén presionado [activate] para cerrar con llave o para definir una combinación. Usa la acción secundaria para mejorar y reparar con madera y con una herramienta de construcción.
+woodHatch1_v1Desc,blocks,Block,KgNone,Press & hold [activate] to lock it or set a combination. Upgrade & repair with wood and a construction tool using the secondary action.\n [ Crafted in [eaa1a1]Carpenter's Bench[-]  ],Maintenez [activate] pour la verrouiller ou définir un code. Elle peut être améliorée et réparée à l'aide de bois et d'un outil de construction grâce à l'action secondaire.,Zum Verschließen oder Kombination eingeben [activate] gedrückt halten. Kann mit Holz und Bauwerkzeugen unter Verwendung der sekundären Aktion aufgewertet und repariert werden.,,Mantén presionado [activate] para cerrar con llave o para definir una combinación. Usa la acción secundaria para mejorar y reparar con madera y con una herramienta de construcción.
 woodHatch1_v2,blocks,Block,KgNone,Wood Hatch1 v2,Trappe en bois 1 v2,Holzklappe 1 v2,,Escotilla 1 de madera v2
 woodHatch1_v3,blocks,Block,KgNone,Wood Hatch1 v3,Trappe en bois 1 v3,Holzklappe 1 v3,,Escotilla 1 de madera v3
 woodLogPillar100,blocks,Block,KgNone,Wood Log,Rondin de bois,Holzstamm,,Tronco de madera
@@ -5141,7 +5141,7 @@ cntZombieFemale,blocks,Loot Container,,Zombie Loot,,Zombie Loot,,
 cntZombieBurnt,blocks,Loot Container,,Zombie Loot,,Zombie Loot,,
 cntCorpseJason,blocks,Loot Container,,Crazed Slasher Loot,,Crazed Slasher Loot,,
 cntCorpseJasonAxe,blocks,Loot Container,,Crazed Slasher Loot,,Crazed Slasher Loot,,
-bowlDesc,items,Item Food,,Use clay bowls for cooking stews and other various foods. These can be crafted by the Survival Class only.\n [ Crafted in [eaa1a1]Blacksmith's Forge[-]  ],,Verwenden Sie Tonschüsseln zum Kochen von Eintöpfen und anderen verschiedenen Lebensmitteln. Diese können nur von der ''Klasse: Überlebender'' hergestellt werden.\n [ Herzustellen im [eaa1a1]verbesserten Schmiedeofen[-] ],,
+bowlDesc,items,Item Food,,Use clay bowls for cooking stews and other various foods. These can be crafted by the Survival Class only.\n [ Crafted in [eaa1a1]Forge[-] and [eaa1a1]Blacksmith's Forge[-]  ],,Verwenden Sie Tonschüsseln zum Kochen von Eintöpfen und anderen verschiedenen Lebensmitteln. Diese können nur von der ''Klasse: Überlebender'' hergestellt werden.\n [ Herzustellen im [eaa1a1]verbesserten Schmiedeofen[-] ],,
 bowl,items,Item Food,,Clay Bowl,,Tonschüssel,,
 bowlMurkyDesc,items,Item Food,,This bowl is full of murky water. Boil it to clean it.\n [ Crafted in [eaa1a1]Advanced Campfire[-] and [eaa1a1]Stoves[-]. ],,Diese Tonschüssel ist voll  mit schmutzigem Wasser. Koche es ab.\n [ Herzustellen im [eaa1a1]verbesserten Lagerfeuer[-] und im [eaa1a1]Ofen[-] ],,
 bowlMurkyWater,items,Item Food,,Bowl of Murky Water,,Tonschüssel mit schmutzigem Wasser,,
@@ -7984,8 +7984,7 @@ CZlockpick01,,,,Cheap Lock Pick,,,,
 CZlockpick02,,,,Lock Pick,,,,
 CZlockpick03,,,,Advanced Lock Pick,,,,
 CZlockpick04,,,,Master Lock Pick,,,,
-masterlocksmithDesc,,,,"Picking a lock isn't just a matter of skill, it's also a matter of having the right tools",,,,
-locksmithDesc,,,,"Becoming a Master lockpick will allow you to open doors, safes and chests of all kinds. Use your lock picks to level this skill and become a Master Lock Picker.",,,,
+masterlocksmithDesc,,,,"Picking a lock isn't just a matter of skill, it's also a matter of having the right tools.  Lockpicks are for simple locks, but the drill bit is used to drill the lock on various safes.  You will have to find a drill to use the bit.  Once the lock is drilled, you can pick the lock using the approrpiate kit and pick",,,,locksmithDesc,,,,"Becoming a Master lockpick will allow you to open doors, safes and chests of all kinds. Use your lock picks to level this skill and become a Master Lock Picker.",,,,
 unlckCommDoor,,,,Door (Unlocked),,,,
 unlckCommDoor2,,,,Door (Unlocked),,,,
 unlckCommDoor3,,,,Door (Unlocked),,,,
@@ -7993,13 +7992,13 @@ unlckCommDoor4,,,,Door (Unlocked),,,,
 unlckResDoor,,,,Door (Unlocked),,,,
 unlckResDoor2,,,,Door (Unlocked),,,,
 cheapkitDesc,,,,"A cheap, low quality lock picking kit that can help you access doors and chests.",,,,
-regkitDesc,,,, A low end professional lock picking kit that help you open drilled desk and wall safes.,,,,
-advkitDesc,,,, A professional grade lock picking kit that can help you access drilled gun safes.,,,,
-masterkitDesc,,,,"A master locksmith's lock picking kit that can help you access drilled radiation zone safes.",,,,
-lockpick01Desc,,,,This lockpick used in combination with the appropriate lock pick kit to open locked doors and chests.,,,,
-lockpick02Desc,,,,This lockpick used in combination with the appropriate lock pick kit to open locked wall and desk safes.,,,,
-lockpick03Desc,,,,This lockpick used in combination with the appropriate lock pick kit to open locked gun safes.,,,,
-lockpick04Desc,,,,This lockpick used in combination with the appropriate lock pick kit to open locked radiation zone safes.,,,,
+regkitDesc,,,, A low end professional lock picking kit that help you open desk and wall safes when used in conjunction with a Power Drill and Drillbit.,,,,
+advkitDesc,,,, A professional grade lock picking kit that can help you access gun safes when used in conjunction with a Power Drill and Drillbit.\n [ Crafted in [eaa1a1]Advanced Workbench.[-]  ],,,,
+masterkitDesc,,,,"A master locksmith's lock picking kit that can help you access radiation zone safes when used in conjunction with a Power Drill and Drillbit."\n [ Crafted in [eaa1a1]Advanced Workbench.[-]  ],,,,
+lockpick01Desc,,,,This lockpick is used in combination with the appropriate lock pick kit to open locked doors and chests.,,,,
+lockpick02Desc,,,,This lockpick is used in combination with the appropriate lock pick kit and a Power Drill to open locked wall and desk safes.,,,,
+lockpick03Desc,,,,This lockpick is used in combination with the appropriate lock pick kit and a Power Drill to open locked gun safes.,,,,
+lockpick04Desc,,,,This lockpick is used in combination with the appropriate lock pick kit and a Power Drill to open locked radiation zone safes.,,,,
 CZDrill,,,,Drill,,,,
 CZdrillbit,,,,Drill Bit,,,,
 cntDeskSafeDrilled,,,,Desk Safe (Drilled),,,,
@@ -8127,7 +8126,7 @@ heavyencumbreredTooltip,buffs,Buff,KgNone,Your Backpack is Heavy,Vous avez été
 Maxencumbered,buffs,Buff,KgNone,Maximum Encumbrance,Bite Mark,Bisswunde,,Marca de la mordedura
 MaxencumberedDesc,buffs,Buff,KgNone,You have exceeded the weight limit that you can carry. Remove some items from your backpack or you will continue to lose stamina and walk slowly.,Vous avez été mordu ou rayé par un animal ou un zombie. Traiter cette plaie rapidement avant qu'elle ne devienne une infection.,"Sie wurden von einem Tier oder Zombie gebissen oder zerkratzt. Behandle diese Wunde sofort, bevor es zu einer Infektion wird.",,Usted ha sido mordido o rasguñado por un animal o un zombi. Tratar esta herida rápidamente antes de que se convierta en una infección.
 MaxencumbreredTooltip,buffs,Buff,KgNone,Your Backpack is Full,Vous avez été rayé ou mordu,Du wurdest gekratzt oder gebissen.,,Te han rascado o mordido
-Unencumbered,buffs,Buff,KgNone,Unencumbered,Bite Mark,Bisswunde,,Marca de la mordedura
+Unencumberedmame,buffs,Buff,KgNone,,Bite Mark,Bisswunde,,Marca de la mordedura
 UnencumberedDesc,buffs,Buff,KgNone,You are unencumbered and are free to place more items in your backpack. Be careful though, if you place too many heavy objects in your bag you will become encumbered and suffer negative effects.,Vous avez été mordu ou rayé par un animal ou un zombie. Traiter cette plaie rapidement avant qu'elle ne devienne une infection.,"Sie wurden von einem Tier oder Zombie gebissen oder zerkratzt. Behandle diese Wunde sofort, bevor es zu einer Infektion wird.",,Usted ha sido mordido o rasguñado por un animal o un zombi. Tratar esta herida rápidamente antes de que se convierta en una infección.
 UnencumberedTooltip,buffs,Buff,KgNone,Your Backpack is Empty,Vous avez été rayé ou mordu,Du wurdest gekratzt oder gebissen.,,Te han rascado o mordido
 stoneKnife,,,,Stone Knife,,
@@ -8138,7 +8137,7 @@ qt_ultimateSurvivor,items,Read This First,KgNone,The Ultimate Survivor,Défi « 
 animalTrapEmpty,,,,Animal Trap (Empty),,
 animalTrapWaiting,,,,Animal Trap (Waiting),,
 animalTrapFull,,,,Animal Trap (Sprung),,
-animalTrapEmptyDesc,,,,"Animal Traps will give you a chance at meat, bones and feathers. To set it place it on the ground and right click it with jerky. In 4 game hours the trap will spring and you can check it for contents. You can not craft any more than the 5 given, but they can be picked up by destroying them so you can move them.",,
+animalTrapEmptyDesc,,,,"Animal Traps will give you a chance at meat, bones and feathers. To set it place it on the ground and right click it with jerky. In 4 game hours the trap will spring and you can check it for contents. Animal Traps are uncraftable, but you can pick them up again by destroying them.",,
 woodGroupDesc,,,,Wood has been used to craft shelter since the dawn of time. Use wood for a quick but sturdy place to rest or call home.\n [ Crafted in [eaa1a1]Carpenter's Bench[-]  ],,
 honeycomb,,,,Honeycomb,,
 honeycombDesc,,,,Honeycomb is produced by bees and can be used to treat a bite or provide a tiny amount of recovery from Infection.,,
@@ -8208,7 +8207,7 @@ enginePartsDesc,,,,A collecton of pistons and other items that will help you bui
 ECObikeEngine,,,,Upgraded Minibike Engine,,
 ECObikeEngineDesc,,,,"A custom built upgraded engine that you can use in your Minibike that gets better fuel per mile, is faster but is also slightly noiser."\n [ Crafted in [eaa1a1]Advanced Workbench[-] with a Socket. ] ,,
 saw,,,,Hacksaw,,
-sawDesc,,,,This hacksaw can be used to cut logs and wood and make wooden items in the Carpentry Bench.,,
+sawDesc,,,,This hacksaw can be used to cut logs and wood and make wooden items in the Carpenter's Bench.,,
 blacksmithsForge,,,,Blacksmiths Forge,,
 blacksmithsForgeDesc,,,,"The Blacksmiths Forge is the epicenter of forging metals. It can craft Tool Heads, Minibike Parts, Forged Iron and Steel, Glass and more.",,
 crushedGravel,,,,Crushed Gravel,,
@@ -8381,3 +8380,11 @@ terrorRathGS1000,entityclasses,Entity,New,The Rath,,Zombie Susan,,
 terrorRathGS1500,entityclasses,Entity,New,The Rath,,Zombie Susan,,
 terrorRathGS2000,entityclasses,Entity,New,The Rath,,Zombie Susan,,
 terrorRathGS3000,entityclasses,Entity,New,The Rath,,Zombie Susan,,
+UltimateSurvivorPerk,progression,Skill,New,Ultimate Survivor,,Klasse: Mediziner,,
+UltimateSurvivorPerkDesc,progression,Skill,New,"You have become the Ultimate Survivor and can now rest a little easier with the knowledge you have gained from your travels.",,"Wenn du das akzeptierst, erhältst du einen Skalpell, etwas geschmiedetes Eisen, einige medizinische Vorräte und exklusive medizinische Rezepte. Exklusiver Zugang zu Erste-Hilfe-Kits, Antibiotika, verbesserten Schienen, Desinfektionsbandagen und Blue Ice.",,
+theUltimateSurvivorSkillsPerk,progression,Skill,New,The Ultimate Survivor Skills,,Ich bin ein Arzt,,
+theUltimateSurvivorPerkDesc,progression,Skill,New,Now that you have survived the Apocalypse you can rest easy now and live life a bit more comfortably.,,Der Mediziner zeichnet sich durch die Herstellung jeglicher Medizinischer Ausrüstung aus.,,
+boltAutoTurret,blocks,Electricity,New,Bolt Auto Turret,,Auto Turret,,
+boltautoTurretDesc,blocks,Electricity,New,A motion sensing boly cannon. No really this thing eats bolts.\n [ Crafted in [eaa1a1]Advanced Workbench.[-]  ],,"Eine mit Bewegungssensor ausgestattete SMG, das Ding frisst Munition.\n [ Herzustellen in der [eaa1a1]verbesserten Werkbank[-] ]",,
+bagOfCharcoal,,,,Charcoal,,Holzkohle,,
+bagOfCharcoalDesc,,,,Bring home a bag of charcoal and enjoy roasting some bits with a flame that almost never extinguishes.,,Holzkohle,,

@@ -606,22 +606,18 @@
 		<trader_item_group name="tools" count="1">
 			<item name="repairKit" count="1,4"/>
 			<item name="wood" count="50,250"/>
-			<item name="toolAndDieSet" prob="0.6"/>
 			<item name="chisel" prob="0.17"/>
 			<item name="weldingMask" prob="0.17"/>
 			<item name="beaker" prob="0.17"/>
 			<item name="weldingTorch" prob="0.17"/>
 			<item name="inkPen" prob="0.17"/>
-			<item name="calipers" prob="0.17"/>
 			<item name="sewingKit" prob="0.17"/>
 			<item name="forgedIron" count="2,8" prob="0.21"/>
 			<item name="forgedSteel" count="2,8" prob="0.12"/>
 			<item name="fertilizer" count="1,3" prob="0.5"/>
 			<item name="paintTool" prob="0.5"/>
 			<item name="wireTool"/>
-			<item name="trowel" prob="0.17"/>
-			<item name="socket" prob="0.17"/>
-			<item name="saw" prob="0.17"/>
+
 		</trader_item_group>
 		<trader_item_group name="minibikeParts" count="1">
 			<item name="minibikeWheels"/>
@@ -787,6 +783,9 @@
 			<item name="electricSledgehammer"  count="1" prob="0.1"/>
 			<item name="electricClubSpiked"  count="1" prob="0.1"/>
 			<item name="Solder" count="1,10"/>
+			<item name="trowel" prob="0.17"/>
+			<item name="socket" prob="0.17"/>
+			<item name="saw" prob="0.17"/>
 		</trader_item_group>
 	</trader_item_groups>
 	<!-- Trader 1, carries better weapons at higher levels. -->

@@ -842,7 +842,6 @@
 			<prefab name="xvanilla_Trailerhousemix02" max_count="1"/>
 			<prefab name="xvanilla_Trailerhousemix03" max_count="1"/>
 			<prefab name="xvanilla_Trailerhousemix04" max_count="1"/>
-			<prefab rule="AframeHouses" max_count="1"/>
 			<prefab rule="waterPois" min_count="2" max_count="4" prob="0.9"/>
 		</prefab_rule>
 		<prefab_rule name="W_POIs_common_Set_B">
@@ -960,22 +959,7 @@
 			<prefab name="abandoned_house_07" max_count="1"/>
 			<prefab name="abandoned_house_08" max_count="1"/>
 		</prefab_rule>
-		<prefab_rule name="AframeHouses">
-			<prefab name="xcostum_House_AF01P(19x35)(by_Nodabba)" max_count="1"/>
-			<prefab name="ravenhearst_xcostum_House_AF02P(17x16)(by_Nodabba)" max_count="1"/>
-			<prefab name="ravenhearst_xcostum_House_AF02R(19x35)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF03D(37x54)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF03P(35x54)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF03R(37x53)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF04D(15x15)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF04P(15x15)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF04R(15x15)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF05D(14x17)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF05P(14x19)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF05R(14x17)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF06D(29x30)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF06R(29x30)(by_Nodabba)" max_count="1"/>
-		</prefab_rule>
+
 		<prefab_rule name="Campsites">
 			<prefab name="campsite_01" max_count="1"/>
 			<prefab name="campsite_02" max_count="1"/>

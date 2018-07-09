@@ -1398,9 +1398,8 @@
 		<property class="Action0">
 			<property name="DamageEntity" value="8" />
 			<property name="DamageBlock" value="20" />
-			<property name="Buff" value="infectionActivatorHygiene,venomActivator,infectionActivatorClean,infectionActivatorDirty,infectionActivatorGrimy,infectionActivatorFilthy,infectionActivatorInfectious" />
-			<property name="Buff_chance" value="1,0.3,0.01,0.2,0.3,0.4,1" />
-			<!-- 			<property name="Buff" value="snakeBite" /><property name="Buff_chance" value="0.7" /> -->
+			<property name="Buff" value="snakeBite"/>
+			<property name="Buff_chance" value="0.7"/>
 		</property>
 	</item>
 	<item id="78" name="handZombie">
@@ -9642,7 +9641,7 @@
 			<property name="Gain_water" value="1" />
 			<property name="Gain_wellness" value="0" />
 			<property name="Sound_start" value="player_blooddraw" />
-			<property name="Buff" value="venomActivator" />
+			<property name="Debuff" value="snakeBite"/>
 		</property>
 		<property class="Action1">
 			<property name="Class" value="Eat" />
@@ -9653,7 +9652,7 @@
 			<property name="Gain_water" value="1" />
 			<property name="Gain_wellness" value="0" />
 			<property name="Sound_start" value="player_painkillers" />
-			<property name="Buff" value="venomActivator" />
+			<property name="Debuff" value="snakeBite"/>
 		</property>
 		<property name="DescriptionKey" value="antiVenomDesc" />
 		<property name="DropScale" value="4" />

@@ -20847,9 +20847,6 @@
 		<property name="ImposterDontBlock" value="true"/>
 		<property name="Class" value="Forge"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
-		<property name="ParticleName" value="forge"/>
-		<property name="ParticleOffset" value="0,0.4,0.4"/>
-		<property name="ActiveRadiusEffects" value="+heatSource(3)"/>
 		<property name="RecipeList" value="blacksmithsForge"/>
 		<property name="MultiBlockDim" value="6,2,2"/>
 		<property name="Stacknumber" value="1"/>

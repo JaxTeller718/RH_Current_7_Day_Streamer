@@ -1219,7 +1219,8 @@
 		<biome_spawn_rule name="pine_forest">
 			<biome_generator range="0,0.1"/>
 			<terrain_generator range="150,175"/>
-			<biome_spawn_rule name="desert"/>
+		</biome_spawn_rule>
+		<biome_spawn_rule name="desert">
 			<biome_generator range="0.1,0.3"/>
 		</biome_spawn_rule>
 		<biome_spawn_rule name="burnt_forest">

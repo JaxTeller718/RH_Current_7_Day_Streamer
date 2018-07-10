@@ -22985,7 +22985,7 @@
 		</property>
 		<property name="DescriptionKey" value="stoneHammerDesc" />
 		<property name="Group" value="Basics,Tools,Tools/Traps" />
-		<property name="ActionSkillGroup" value="Construction_Tools" />
+		<property name="ActionSkillGroup" value="Construction Tools" />
 		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools" />
 		<property name="RepairExpMultiplier" value="5.5" />
 		<property name="ItemWeight" value="2" />

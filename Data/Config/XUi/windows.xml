@@ -1,43 +1,35 @@
 <windows>
 	<!-- <<< SMX A16.4B8R2 START - BY SIRILLION >>> -->
-	<!-- >>> LOGO & SERVER INFORMATION >>> -->
-	<!-- EDIT THE TEXTURE PART TO REMOVE THE SMX "LOGO" OR INSERT YOUR OWN LOGO IF YOU WISH. TO AVOID ISSUES, STICK TO THE SIZE. -->
-	<!-- EDIT THE TEXT PART OF THE LABEL SECTION TO SET A CUSTOM MESSAGE FOR YOUR DEDICATED SERVER - STANDARD COLOR IS GREEN, THIS CAN BE CHANGED IN THE COLOR PART. DON'T OVER-DO IT! -->
-	<!-- The following section handles: The MOD LOGO for the HUD -->
-	<window name="SMX">
-		<texture name="SMX" depth="0" size="250,33" texture="@file:Mods\SMX\Textures\Misc\smxhudlogo.png" material="Materials/Transparent Colored" pos="-320,-2" />
-		<label name="SMXServerInfo1" depth="0" size="250,27" text="" font_size="20" effect="outline" color="[green]" justify="center" pos="-610,-8" overflow="resizeheight" />
+	<!-- >>> HUD LOGO, SERVER INFORMATION & INGAME MAIN MENU >>> -->
+	<!-- The following section handles: The HUD LOGO & SERVER INFORMATION -->
+	<window name="SMXHUDLogo" pos="0,0">
+		<texture style="SMXHUDLogo8" depth="0" pos="-350,0" />
+		<!-- (1-9) -->
+		<label name="SMXServerInfo" depth="0" pos="-610,-8" size="250,27" text="" font_size="20" effect="outline" color="[green]" justify="center" overflow="resizeheight" />
 	</window>
-	<window name="SIRMOD">
-		<texture name="SIRMOD" depth="0" size="250,33" texture="@file:Mods\SMX\Textures\Misc\smhudlogo.png" material="Materials/Transparent Colored" pos="-320,-2" />
-		<label name="SMXServerInfo1" depth="0" size="250,27" text="" font_size="20" effect="outline" color="[green]" justify="center" pos="-610,-8" overflow="resizeheight" />
+	<!-- The following section handles: The INGAME MAIN MENU -->
+	<window name="SMXIngameMenu" pos="-500,0" size="250,200" controller="InGameMenuWindow" cursor_area="true">
+		<texture style="SMXBackgroundDimmer" depth="0" pos="-2500,2500" />
+		<texture style="SMXMainMenuBG" depth="1" pos="0,0" pivot="center" />
+		<texture style="SMXMainMenuLogo8" depth="2" pos="0,100" pivot="center" />
+		<!-- (1-9) -->
+		<grid name="buttons" depth="3" pos="-125,-250" pivot="center" cols="1" width="250" cell_width="250" cell_height="85" arrangement="vertical" repeat_content="false">
+			<SMX_Button_1 name="btnOptions" caption_key="xuiMenuOptions" />
+			<SMX_Button_2 name="btnSave" caption_key="xuiMenuSave" />
+			<SMX_Button_3 name="btnExit" caption_key="xuiMenuExit" />
+		</grid>
+		<label name="Edition" depth="2" pos="0, -470" pivot="center" size="250,33" text="Current Development Version" font_size="14" effect="outline" color="[white]" justify="center" />
+		<!-- Set Edition here -->
+		<label name="Version" depth="2" pos="0, -490" pivot="center" size="250,33" text="SMX-A16.4B8RX" font_size="14" effect="outline" color="[white]" justify="center" />
+		<!-- Set version here -->
+		<texture style="SMXInfoHeader" depth="2" pos="800,300" pivot="center" />
+		<label name="InfoHeader" depth="3" pos="800,360" pivot="center" size="500,50" text="CHANGELOG" font_size="40" effect="outline" color="[white]" justify="center" />
+		<texture style="SMXChangeLog" depth="3" pos="800,60" pivot="center" />
+		<texture style="SMXInfoHeader" depth="2" pos="800,-320" pivot="center" />
+		<label name="InfoHeader" depth="3" pos="800,-260" pivot="center" size="500,50" text="SERVER INFORMATION" font_size="40" effect="outline" color="[white]" justify="center" />
+		<texture style="SMXServerInfo" depth="3" pos="800,-400" pivot="center" />
 	</window>
-	<window name="VALMOD">
-		<!-- SIRILLION: VALMAR, this is the HUD logo. There is also a MAINMENU logo, you can set your version number there. It is at the end of the SMX section. -->
-		<texture name="VALMOD" depth="0" size="250,33" texture="@file:Mods\SMX\Textures\Misc\vmhudlogo.png" material="Materials/Transparent Colored" pos="-320,-2" />
-		<label name="SMXServerInfo1" depth="0" size="250,27" text="" font_size="20" effect="outline" color="[green]" justify="center" pos="-610,-8" overflow="resizeheight" />
-	</window>
-	<window name="TRUESURVIVAL">
-		<!-- SIRILLION: SPIDER, this is the HUD logo. There is also a MAINMENU logo, you can set your version number there. It is at the end of the SMX section. -->
-		<texture name="TRUESURVIVAL" depth="0" size="250,33" texture="@file:Mods\SMX\Textures\Misc\tshudlogo.png" material="Materials/Transparent Colored" pos="-320,-2" />
-		<label name="SMXServerInfo1" depth="0" size="250,27" text="" font_size="20" effect="outline" color="[green]" justify="center" pos="-610,-8" overflow="resizeheight" />
-	</window>
-	<window name="WotW">
-		<!-- SIRILLION: DWALLORDE, this is the HUD logo. There is also a MAINMENU logo, you can set your version number there. It is at the end of the SMX section. -->
-		<texture name="WotW" depth="0" size="100,50" texture="@file:Mods\SMX\Textures\Misc\wwhudlogo.png" material="Materials/Transparent Colored" pos="-500,-6" />
-		<label name="ServerInfo" depth="0" size="100,50" text="V5.0.6(B31) R9/6/2017" font_size="18" effect="outline" color="[red]" justify="center" pos="-400,-15" overflow="resizeheight" />
-	</window>
-	<window name="CRAFTWORX">
-		<!-- SIRILLION: LATHEOS, this is the HUD logo. There is also a MAINMENU logo, you can set your version number there. It is at the end of the SMX section. -->
-		<texture name="CRAFTWORX" depth="0" size="250,33" texture="@file:Mods\SMX\Textures\Misc\cwhudlogo.png" material="Materials/Transparent Colored" pos="-320,-2" />
-		<label name="SMXServerInfo1" depth="0" size="250,27" text="" font_size="20" effect="outline" color="[green]" justify="center" pos="-610,-8" overflow="resizeheight" />
-	</window>
-	<window name="RAVENHEARST">
-		<!-- SIRILLION: JAXTELLER718, this is the HUD logo. There is also a MAINMENU logo, you can set your version number there. It is at the end of the SMX section. -->
-		<texture name="RAVENHEARST" depth="0" size="250,33" texture="@file:Mods\SMX\Textures\Misc\rhhudlogo.png" material="Materials/Transparent Colored" pos="-320,-2" />
-		<label name="SMXServerInfo1" depth="0" size="250,27" text="v4.0STREAMER" font_size="20" effect="outline" color="[white]" justify="center" pos="-610,-8" overflow="resizeheight" />
-	</window>
-	<!-- <<< LOGO & SERVER INFORMATION <<< -->
+	<!-- <<< HUD LOGO, SERVER INFORMATION & INGAME MAIN MENU <<< -->
 	<!-- >>> UNIT FRAMES >>> -->
 	<!-- The following section handles: HEALTH, STAMINA, THIRST and HUNGER bars and backgrounds : SMX DESIGN -->
 	<window name="SMXUnitFrame1SMX" style="SMXUnitFrameWindow">
@@ -811,7 +803,7 @@
 	<!-- The following section handles: The INGAME MAIN MENU : RAVENHEARST DESIGN -->
 	<window name="RAVENHEARSTingameMenu" anchor="CenterCenter" pos="-125,200" width="250" height="200" controller="InGameMenuWindow" cursor_area="true">
 		<texture name="RAVENHEARST" depth="0" size="788,788" texture="@file:Mods\SMX\Textures\Misc\rhmenulogo.png" material="Materials/Transparent Colored" pos="-268,290" />
-		<label name="RAVENHEARSTVersion" pos="190, -5" depth="0" size="250,33" text="v4.0STREAMER" font_size="38" effect="outline" color="[white]" justify="center" />
+		<label name="RAVENHEARSTVersion" pos="190, -5" depth="0" size="250,33" text="v4.0.1" font_size="38" effect="outline" color="[white]" justify="center" />
 		<!-- SIRILLION: -->
 		<grid name="buttons" pos="0, -100" cols="1" width="250" cell_width="250" cell_height="56" arrangement="vertical" repeat_content="false" >
 			<simplebutton name="btnOptions" depth="3" width="250" height="46" caption_key="xuiMenuOptions" font_size="40" />

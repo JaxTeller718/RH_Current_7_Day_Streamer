@@ -641,7 +641,7 @@
 												<modify id="1" stat="coretemp" modifyValue="-10"/>
 											</buff>
 											<buff id="restingMatEffect" duration="21"  	name_key="Taking A Break" description_key="You are taking a small break. Your health and stamina will recover while doing this." tooltip_key="You are taking a break" icon="ui_game_symbol_map_bed">
-												<modify id="0" stat="health" amount="1" rate="20" />
+												<modify id="0" stat="health" amount="2" rate="20" />
 												<modify id="0" stat="stamina" amount="1" rate="4" />
 											</buff>
 										</buffs>

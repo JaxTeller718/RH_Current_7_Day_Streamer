@@ -7642,7 +7642,7 @@
 		</property>
 		<property name="Group" value="Weapons,Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Blade Weapons" />
-		<property name="CraftingSkillGroup" value="craftSkillBladeWeapons" />
+		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools" />
 		<property name="RepairExpMultiplier" value="5.5" />
 		<property name="DescriptionKey" value="scalpelDesc" />
 		<property name="SellableToTrader" value="false" />
@@ -7753,7 +7753,7 @@
 		</property>
 		<property name="Group" value="Weapons,Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Blade Weapons" />
-		<property name="CraftingSkillGroup" value="craftSkillBladeWeapons" />
+		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools" />
 		<property name="RepairExpMultiplier" value="5.5" />
 		<property name="DescriptionKey" value="kukriDesc" />
 		<property name="SellableToTrader" value="false" />
@@ -7935,7 +7935,7 @@
 		</property>
 		<property name="Group" value="Weapons,Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Blade Weapons" />
-		<property name="CraftingSkillGroup" value="craftSkillBladeWeapons" />
+		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools" />
 		<property name="RepairExpMultiplier" value="5.5" />
 		<property name="SellableToTrader" value="false" />
 		<property name="ItemWeight" value="10" />
@@ -8480,7 +8480,7 @@
 		</property>
 		<property name="Group" value="Weapons,Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Blade Weapons" />
-		<property name="CraftingSkillGroup" value="craftSkillBladeWeapons" />
+		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools" />
 		<property name="RepairExpMultiplier" value="5.5" />
 		<property name="DescriptionKey" value="kukriDesc" />
 		<property name="SellableToTrader" value="false" />
@@ -8535,7 +8535,7 @@
 		</property>
 		<property name="Group" value="Weapons,Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Blade Weapons" />
-		<property name="CraftingSkillGroup" value="craftSkillBladeWeapons" />
+		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools" />
 		<property name="RepairExpMultiplier" value="5.5" />
 		<property name="DescriptionKey" value="kukriDesc" />
 		<property name="SellableToTrader" value="false" />
@@ -8590,7 +8590,7 @@
 		</property>
 		<property name="Group" value="Weapons,Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Blade Weapons" />
-		<property name="CraftingSkillGroup" value="craftSkillBladeWeapons" />
+		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools" />
 		<property name="RepairExpMultiplier" value="5.5" />
 		<property name="DescriptionKey" value="kukriDesc" />
 		<property name="SellableToTrader" value="false" />
@@ -8645,7 +8645,7 @@
 		</property>
 		<property name="Group" value="Weapons,Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Blade Weapons" />
-		<property name="CraftingSkillGroup" value="craftSkillBladeWeapons" />
+		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools" />
 		<property name="RepairExpMultiplier" value="5.5" />
 		<property name="DescriptionKey" value="kukriDesc" />
 		<property name="SellableToTrader" value="false" />
@@ -8700,7 +8700,7 @@
 		</property>
 		<property name="Group" value="Weapons,Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Blade Weapons" />
-		<property name="CraftingSkillGroup" value="craftSkillBladeWeapons" />
+		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools" />
 		<property name="RepairExpMultiplier" value="5.5" />
 		<property name="DescriptionKey" value="kukriDesc" />
 		<property name="SellableToTrader" value="false" />
@@ -8755,7 +8755,7 @@
 		</property>
 		<property name="Group" value="Weapons,Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Blade Weapons" />
-		<property name="CraftingSkillGroup" value="craftSkillBladeWeapons" />
+		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools" />
 		<property name="RepairExpMultiplier" value="5.5" />
 		<property name="DescriptionKey" value="kukriDesc" />
 		<property name="SellableToTrader" value="false" />
@@ -9039,7 +9039,7 @@
 		</property>
 		<property name="Group" value="Weapons,Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Blade Weapons" />
-		<property name="CraftingSkillGroup" value="craftSkillBladeWeapons" />
+		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools" />
 		<property name="RepairExpMultiplier" value="5.5" />
 		<property name="SellableToTrader" value="false" />
 		<property name="ItemWeight" value="10" />
@@ -18444,7 +18444,7 @@
 		</property>
 		<property name="Group" value="Weapons,Ammo/Weapons" />
 		<property name="ActionSkillGroup" value="Shotguns" />
-		<property name="CraftingSkillGroup" value="craftSkillShotguns" />
+		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools" />
 		<property name="RepairExpMultiplier" value="10.8" />
 		<property name="SellableToTrader" value="false" />
 		<property name="ItemWeight" value="1" />
@@ -18651,7 +18651,7 @@
 			<property name="Delay" value="2.1" />
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="0" />
-			<property name="Gain_food" value="2" />
+			<property name="Gain_food" value="8" />
 			<property name="Gain_water" value="0" />
 			<property name="Gain_wellness" value="0" />
 			<property name="Sound_start" value="player_eating" />
@@ -18666,7 +18666,7 @@
 		<property name="Extends" value="charredredMeat" />
 		<property name="CustomIcon" value="charredWhiteMeat" />
 		<property class="Action1">
-			<property name="Gain_food" value="2" />
+			<property name="Gain_food" value="8" />
 		</property>
 	</item>
 	<item id="1154" name="charredMeat">
@@ -18683,7 +18683,7 @@
 			<property name="Delay" value="2.1" />
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="0" />
-			<property name="Gain_food" value="3" />
+			<property name="Gain_food" value="8" />
 			<property name="Gain_water" value="0" />
 			<property name="Gain_wellness" value="0" />
 			<property name="Sound_start" value="player_eating" />
@@ -18706,7 +18706,7 @@
 			<property name="Delay" value="2.1" />
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="0" />
-			<property name="Gain_food" value="4" />
+			<property name="Gain_food" value="12" />
 			<property name="Gain_water" value="0" />
 			<property name="Gain_wellness" value="0.07" />
 			<property name="Sound_start" value="player_eating" />
@@ -18729,7 +18729,7 @@
 			<property name="Delay" value="2.1" />
 			<property name="Use_time" value="..." />
 			<property name="Gain_health" value="0" />
-			<property name="Gain_food" value="4" />
+			<property name="Gain_food" value="9" />
 			<property name="Gain_water" value="0" />
 			<property name="Gain_wellness" value="0.08" />
 			<property name="Sound_start" value="player_eating" />
@@ -20736,7 +20736,7 @@
 		<property name="DescriptionKey" value="stewChunkyMeatDesc" />
 		<property class="Action1">
 			<property name="Gain_health" value="1" />
-			<property name="Gain_food" value="8" />
+			<property name="Gain_food" value="10" />
 			<property name="Gain_wellness" value="0.15" />
 		</property>
 		<property name="Group" value="Drinks/Stews,Food/Cooking" />

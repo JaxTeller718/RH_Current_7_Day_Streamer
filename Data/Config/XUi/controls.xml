@@ -1,5 +1,26 @@
 <controls>
-	<!-- <<< SMX A16.4B8R1 START - BY SIRILLION >>> -->
+	<!-- <<< SMX A16.4B8R2 START - BY SIRILLION >>> -->
+	<SMX_Button_1>
+		<rect name="${name}" enabled_font_color="${enabled_font_color|[labelColor]}" disabled_font_color="${disabled_font_color|[disabledLabelColor]}" controller="SimpleButton">
+			<sprite name="border" style="SMXButton1" />
+			<button name="clickable" style="SMXButtonHover1" pos="23,-16" />
+			<label depth="2" name="btnLabel" pos="2,${Round(-height/2,0)|-42}" justify="center" text="${caption|}" text_key="${caption_key|}" effect="outline" pivot="${pivot|left}" font_size="${font_size|40}" />
+		</rect>
+	</SMX_Button_1>
+	<SMX_Button_2>
+		<rect name="${name}" enabled_font_color="${enabled_font_color|[labelColor]}" disabled_font_color="${disabled_font_color|[disabledLabelColor]}" controller="SimpleButton">
+			<sprite name="border" style="SMXButton2" />
+			<button name="clickable" style="SMXButtonHover1" pos="23,-16" />
+			<label depth="2" name="btnLabel" pos="2,${Round(-height/2,0)|-42}" justify="center" text="${caption|}" text_key="${caption_key|}" effect="outline" pivot="${pivot|left}" font_size="${font_size|40}" />
+		</rect>
+	</SMX_Button_2>
+	<SMX_Button_3>
+		<rect name="${name}" enabled_font_color="${enabled_font_color|[labelColor]}" disabled_font_color="${disabled_font_color|[disabledLabelColor]}" controller="SimpleButton">
+			<sprite name="border" style="SMXButton3" pos="20,0" />
+			<button name="clickable" style="SMXButtonHover2" pos="43,-16" />
+			<label depth="2" name="btnLabel" pos="2,${Round(-height/2,0)|-42}" justify="center" text="${caption|}" text_key="${caption_key|}" effect="outline" pivot="${pivot|left}" font_size="${font_size|40}" />
+		</rect>
+	</SMX_Button_3>
 	<SMX_85_item_stack_uf1>
 		<rect controller="ItemStack" style="SMX85ItemStack, hover" collider_scale="1.1">
 			<texture name="SMXToolbeltSlot" depth="0" size="83,83" texture="@file:Mods\SMX\Textures\Toolbelt\smxtoolbeltslot.png" material="Materials/Transparent Colored" />

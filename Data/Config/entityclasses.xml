@@ -131,7 +131,7 @@
 		<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 		<property name="SoundSleeperSense" value="sleepersense"/>
 		<property name="SoundSleeperBackToSleep" value="sleeperbacktosleep"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="AttackTimeoutDay" value="1.5"/>
 		<property name="AttackTimeoutNight" value="1.1"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab"/>
@@ -240,7 +240,7 @@
 		<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 		<property name="SoundSleeperSense" value="sleepersense"/>
 		<property name="SoundSleeperBackToSleep" value="sleeperbacktosleep"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="AttackTimeoutDay" value="1.5"/>
 		<property name="AttackTimeoutNight" value="1.1"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab"/>
@@ -2301,7 +2301,7 @@
 		<property name="CorpseBlockChance" value="1"/>
 		<property name="Weight" value="70"/>
 		<property name="PushFactor" value="20"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="AttackTimeoutDay" value="1.5"/>
 		<property name="AttackTimeoutNight" value="1.1"/>
 		<property name="LootListOnDeath" value="174"/>
@@ -2611,7 +2611,7 @@
 		<property name="SoundLandSoft" value="Player_Male/player1LandSoft"/>
 		<property name="SoundLandHard" value="Player_Male/player1LandHard"/>
 		<property name="SoundPlayerLandThump" value="PlayerLandThump"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="15"/>
 		<property name="HasDeathAnim" value="true"/>
 	</entity_class>
@@ -2656,7 +2656,7 @@
 		<property name="SoundLandSoft" value="Player_Male/player1LandSoft"/>
 		<property name="SoundLandHard" value="Player_Male/player1LandHard"/>
 		<property name="SoundPlayerLandThump" value="PlayerLandThump"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="15"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab"/>
 		<property name="CorpseBlockChance" value="1"/>
@@ -2722,7 +2722,7 @@
 		<property name="SoundHurt" value="malehatepain"/>
 		<property name="SoundDeath" value="malehatedeath"/>
 		<property name="SoundAttack" value="malehateattack"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="CorpseBlock" value="banditBackpack01"/>
 		<property name="CorpseBlockChance" value="1"/>
 		<property name="ExperienceGain" value="355"/>
@@ -3811,7 +3811,7 @@
 		<property name="PanicSpeed" value="1.3"/>
 		<property name="ExperienceGain" value="1155"/>
 		<property name="HandItem" value="handZombieMutant"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="176"/>
 	</entity_class>
 	<entity_class name="terrorMutantGasser02" extends="SDXTemplate">
@@ -3840,7 +3840,7 @@
 		<property name="PanicSpeed" value="1.3"/>
 		<property name="ExperienceGain" value="1155"/>
 		<property name="HandItem" value="handZombieMutant"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="176"/>
 	</entity_class>
 	<entity_class name="terrorMutantGasser03" extends="SDXTemplate">
@@ -3869,7 +3869,7 @@
 		<property name="PanicSpeed" value="1.3"/>
 		<property name="ExperienceGain" value="1155"/>
 		<property name="HandItem" value="handZombieMutant"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="176"/>
 	</entity_class>
 	<entity_class name="terrorMechanic" extends="SDXTemplate">
@@ -3899,7 +3899,7 @@
 		<property name="PanicSpeed" value="0.9"/>
 		<property name="ExperienceGain" value="1455"/>
 		<property name="HandItem" value="handZombieMechanic"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="176"/>
 	</entity_class>
 	<entity_class name="terrorCrazed" extends="SDXTemplate">
@@ -3929,7 +3929,7 @@
 		<property name="PanicSpeed" value="0.9"/>
 		<property name="ExperienceGain" value="1455"/>
 		<property name="HandItem" value="handZombieMechanic"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="176"/>
 	</entity_class>
 	<entity_class name="terrorButcher" extends="SDXTemplate">
@@ -3959,7 +3959,7 @@
 		<property name="PanicSpeed" value="0.9"/>
 		<property name="ExperienceGain" value="1455"/>
 		<property name="HandItem" value="handZombieButcher"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="176"/>
 	</entity_class>
 	<entity_class name="terrorConvict" extends="SDXTemplate">
@@ -3989,7 +3989,7 @@
 		<property name="PanicSpeed" value="0.9"/>
 		<property name="ExperienceGain" value="1455"/>
 		<property name="HandItem" value="handZombieMechanic"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="176"/>
 	</entity_class>
 	<entity_class name="terrorRath" extends="SDXTemplate">
@@ -4019,7 +4019,7 @@
 		<property name="PanicSpeed" value="0.9"/>
 		<property name="ExperienceGain" value="1455"/>
 		<property name="HandItem" value="handZombieRath"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="176"/>
 	</entity_class>
 	<!-- JAXTELLER718 ZOMBIES -->
@@ -4050,7 +4050,7 @@
 		<property name="PanicSpeed" value="0.3" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handZombie" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="herdCopendub" extends="SDXTemplate">
@@ -4080,7 +4080,7 @@
 		<property name="PanicSpeed" value="0.4" />
 		<property name="ExperienceGain" value="755" />
 		<property name="HandItem" value="handZombieStrong" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="herdBunnie" extends="SDXTemplate">
@@ -4110,7 +4110,7 @@
 		<property name="PanicSpeed" value="0.5" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handZombie" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="herdRecon" extends="SDXTemplate">
@@ -4140,7 +4140,7 @@
 		<property name="PanicSpeed" value="0.3" />
 		<property name="ExperienceGain" value="755" />
 		<property name="HandItem" value="handZombieStrong" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="herdGrumbul" extends="SDXTemplate">
@@ -4170,7 +4170,7 @@
 		<property name="PanicSpeed" value="0.3" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handZombie" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="herdDan" extends="SDXTemplate">
@@ -4200,7 +4200,7 @@
 		<property name="PanicSpeed" value="0.5" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handZombie" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="herdErnie" extends="SDXTemplate">
@@ -4230,7 +4230,7 @@
 		<property name="PanicSpeed" value="0.4" />
 		<property name="ExperienceGain" value="755" />
 		<property name="HandItem" value="handZombieStrong" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="herdGadriel" extends="SDXTemplate">
@@ -4260,7 +4260,7 @@
 		<property name="PanicSpeed" value="0.2" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handZombie" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="herdPope" extends="SDXTemplate">
@@ -4290,7 +4290,7 @@
 		<property name="PanicSpeed" value="0.4" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handZombie" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="herdDex" extends="SDXTemplate">
@@ -4320,7 +4320,7 @@
 		<property name="PanicSpeed" value="0.4" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handZombie" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="herdMel" extends="SDXTemplate">
@@ -4350,7 +4350,7 @@
 		<property name="PanicSpeed" value="0.5" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handZombie" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="herdSupaBean" extends="SDXTemplate">
@@ -4380,7 +4380,7 @@
 		<property name="PanicSpeed" value="0.4" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handZombie" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="herdMaz" extends="SDXTemplate">
@@ -4410,7 +4410,7 @@
 		<property name="PanicSpeed" value="0.4" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handZombie" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="herdRotter01" extends="SDXTemplate">
@@ -4440,7 +4440,7 @@
 		<property name="PanicSpeed" value="0.4" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handZombie" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="herdRotter02" extends="SDXTemplate">
@@ -4470,7 +4470,7 @@
 		<property name="PanicSpeed" value="0.4" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handZombie" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="herdRotter03" extends="SDXTemplate">
@@ -4500,7 +4500,7 @@
 		<property name="PanicSpeed" value="0.4" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handZombie" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="herdRotter04" extends="SDXTemplate">
@@ -4530,7 +4530,7 @@
 		<property name="PanicSpeed" value="0.4" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handZombie" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="herdRotter05" extends="SDXTemplate">
@@ -4560,7 +4560,7 @@
 		<property name="PanicSpeed" value="0.4" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handZombie" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="herdRotter06" extends="SDXTemplate">
@@ -4590,7 +4590,7 @@
 		<property name="PanicSpeed" value="0.4" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handZombie" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="herdSinda" extends="SDXTemplate">
@@ -4620,7 +4620,7 @@
 		<property name="PanicSpeed" value="0.5" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handZombie" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<entity_class name="herdBrad" extends="SDXTemplate">
@@ -4650,7 +4650,7 @@
 		<property name="PanicSpeed" value="0.3" />
 		<property name="ExperienceGain" value="755" />
 		<property name="HandItem" value="handZombieStrong" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="234" />
 	</entity_class>
 	<!--    TIERED ZOMBIES  -->
@@ -5929,7 +5929,7 @@
 		<property name="SoundHurt" value="Enemies/Feral_Zombie/zombieferalpain"/>
 		<property name="SoundDeath" value="Animals/Vulture/vulturedeath"/>
 		<property name="SoundAttack" value="Enemies/Feral_Zombie/zombieferalfootstep"/>
-		<property name="TimeStayAfterDeath" value="2"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab"/>
 		<property name="CorpseBlockChance" value="1"/>
 		<property name="ExperienceGain" value="455"/>
@@ -6086,7 +6086,7 @@
 		<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 		<property name="SoundSleeperSense" value="sleepersense"/>
 		<property name="SoundSleeperBackToSleep" value="sleeperbacktosleep"/>
-		<property name="TimeStayAfterDeath" value="2"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<!--<property name="LootListOnDeath" value="15"/>-->
 		<property name="CorpseBlock" value="ZedGoreGenericZeds"/>
 		<property name="CorpseBlockChance" value="1"/>
@@ -6298,7 +6298,7 @@
 		<property name="SoundHurt" value=""/>
 		<property name="SoundDeath" value="malehatedeath"/>
 		<property name="SoundAttack" value=""/>
-		<property name="TimeStayAfterDeath" value="10"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="71"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab"/>
 		<property name="CorpseBlockChance" value="1"/>
@@ -6326,7 +6326,7 @@
 		<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
 		<property name="ExperienceGain" value="455" />
 		<property name="HandItem" value="handBandit" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 	</entity_class>
 	<entity_class name="banditPrisoner01" extends="npcSDXMaleMeleeBanditTemplate">
 		<property name="Mesh" value="#RHBandits?banditPrisoner01" />
@@ -6344,7 +6344,7 @@
 		<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handBandit" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 	</entity_class>
 	<entity_class name="banditPrisoner02" extends="npcSDXMaleMeleeBanditTemplate">
 		<property name="Mesh" value="#RHBandits?banditPrisoner02" />
@@ -6362,7 +6362,7 @@
 		<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handBanditCrowbar" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 	</entity_class>
 	<entity_class name="banditPrisoner03" extends="npcSDXMaleMeleeBanditTemplate">
 		<property name="Mesh" value="#RHBandits?banditPrisoner03" />
@@ -6380,7 +6380,7 @@
 		<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handBandit" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 	</entity_class>
 	<entity_class name="banditPrisoner04" extends="npcSDXMaleMeleeBanditTemplate">
 		<property name="Mesh" value="#RHBandits?banditPrisoner04" />
@@ -6398,7 +6398,7 @@
 		<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handBanditShank" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 	</entity_class>
 	<entity_class name="banditPrisoner05" extends="npcSDXMaleMeleeBanditTemplate">
 		<property name="Mesh" value="#RHBandits?banditPrisoner05" />
@@ -6416,7 +6416,7 @@
 		<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handBandit" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 	</entity_class>
 	<entity_class name="banditPrisoner06" extends="npcSDXMaleMeleeBanditTemplate">
 		<property name="Mesh" value="#RHBandits?banditPrisoner06" />
@@ -6434,7 +6434,7 @@
 		<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handBanditCrowbar" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 	</entity_class>
 	<entity_class name="banditPrisoner07" extends="npcSDXMaleMeleeBanditTemplate">
 		<property name="Mesh" value="#RHBandits?banditPrisoner07" />
@@ -6452,7 +6452,7 @@
 		<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handBandit" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 	</entity_class>
 	<entity_class name="banditPrisoner08" extends="npcSDXMaleMeleeBanditTemplate">
 		<property name="Mesh" value="#RHBandits?banditPrisoner08" />
@@ -6470,7 +6470,7 @@
 		<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handBanditShank" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 	</entity_class>
 	<entity_class name="banditPrisoner09" extends="npcSDXMaleMeleeBanditTemplate">
 		<property name="Mesh" value="#RHBandits?banditPrisoner09" />
@@ -6488,7 +6488,7 @@
 		<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handBandit" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 	</entity_class>
 	<entity_class name="banditPrisoner10" extends="npcSDXMaleMeleeBanditTemplate">
 		<property name="Mesh" value="#RHBandits?banditPrisoner10" />
@@ -6506,7 +6506,7 @@
 		<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handBanditCrowbar" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 	</entity_class>
 	<entity_class name="banditPrisoner11" extends="npcSDXMaleMeleeBanditTemplate">
 		<property name="Mesh" value="#RHBandits?banditPrisoner11" />
@@ -6524,7 +6524,7 @@
 		<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handBandit" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 	</entity_class>
 	<entity_class name="banditPrisoner12" extends="npcSDXMaleMeleeBanditTemplate">
 		<property name="Mesh" value="#RHBandits?banditPrisoner12" />
@@ -6542,7 +6542,7 @@
 		<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handBanditShank" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4"/>
 	</entity_class>
 	<entity_class name="nuclearCop" extends="zombieTemplateMale">
 		<property name="Mesh" value="Zombies/zombieStandardCopRagdoll"/>
@@ -6664,7 +6664,7 @@
 		<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 		<property name="SoundSleeperSense" value="sleepersense"/>
 		<property name="SoundSleeperBackToSleep" value="sleeperbacktosleep"/>
-		<property name="TimeStayAfterDeath" value="2"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="AttackTimeoutDay" value="1.5"/>
 		<property name="AttackTimeoutNight" value="1.1"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
@@ -6699,7 +6699,7 @@
 		<property name="ArmsExplosionDamageMultiplier" value="1"/>
 		<property name="HeadExplosionDamageMultiplier" value="1"/>
 		<property name="ChestExplosionDamageMultiplier" value="1"/>
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="LootListOnDeath" value="247"/>
 	</entity_class>
@@ -6713,7 +6713,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>
 		<property name="WalkType" value="3" />
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
 		<property name="SightRange" value="30" />
@@ -6753,7 +6753,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>
 		<property name="WalkType" value="3" />
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
 		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
@@ -6780,7 +6780,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>
 		<property name="WalkType" value="3" />
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
 		<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
@@ -6819,7 +6819,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>
 		<property name="WalkType" value="3" />
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
 		<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
@@ -6847,7 +6847,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>
 		<property name="WalkType" value="3" />
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
 		<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
@@ -6875,7 +6875,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>
 		<property name="WalkType" value="3" />
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
 		<property name="ReplaceMaterial1" value="entities/zombies/materials/feral_eye"/>
@@ -6904,7 +6904,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>
 		<property name="WalkType" value="3" />
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
 		<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
@@ -6933,7 +6933,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>
 		<property name="WalkType" value="3" />
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
 		<property name="SightRange" value="30" />
@@ -6961,7 +6961,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>
 		<property name="WalkType" value="3" />
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
 		<property name="SightRange" value="30" />
@@ -6989,7 +6989,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>
 		<property name="WalkType" value="3" />
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
 		<property name="SightRange" value="30" />
@@ -7017,7 +7017,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>
 		<property name="WalkType" value="3" />
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
 		<property name="SightRange" value="30" />
@@ -7045,7 +7045,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>
 		<property name="WalkType" value="3" />
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
 		<property name="SightRange" value="30" />
@@ -7073,7 +7073,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>
 		<property name="WalkType" value="3" />
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
 		<property name="SightRange" value="30" />
@@ -7101,7 +7101,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>
 		<property name="WalkType" value="3" />
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
 		<property name="SightRange" value="30" />
@@ -7129,7 +7129,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>
 		<property name="WalkType" value="3" />
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
 		<property name="SightRange" value="30" />
@@ -7157,7 +7157,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>
 		<property name="WalkType" value="3" />
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
 		<property name="SightRange" value="30" />
@@ -7185,7 +7185,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>
 		<property name="WalkType" value="3" />
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
 		<property name="SightRange" value="30" />
@@ -7213,7 +7213,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>
 		<property name="WalkType" value="3" />
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
 		<property name="SightRange" value="30" />
@@ -7241,7 +7241,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>
 		<property name="WalkType" value="3" />
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
 		<property name="SightRange" value="30" />
@@ -7269,7 +7269,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>
 		<property name="WalkType" value="3" />
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
 		<property name="SightRange" value="30" />
@@ -7295,7 +7295,7 @@
 		<property name="NightWanderSpeed" value="0.08"/>
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="WalkType" value="6"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
@@ -7326,7 +7326,7 @@
 		<property name="NightApproachSpeed" value="0.2"/>
 		<property name="PanicSpeed" value="0.4"/>
 		<property name="WalkType" value="3" />
-		<property name="ExperienceGain" value="25"/>
+		<property name="ExperienceGain" value="55"/>
 		<property name="MaxHealth" value="85"/>
 		<property name="WalkType" value="7"/>
 		<property name="CorpseBlock" value="GoreBlock1Prefab1"/>
@@ -7363,7 +7363,7 @@
 		<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep" />
 		<property name="ExperienceGain" value="355" />
 		<property name="HandItem" value="handBandit" />
-		<property name="TimeStayAfterDeath" value="6" />
+		<property name="TimeStayAfterDeath" value="4" />
 	</entity_class>
 	<entity_class name="terrorRathGS50" extends="SDXTemplate">
 		<property name="Mesh" value="#RHTerrors?terrorRath"/>
@@ -7392,7 +7392,7 @@
 		<property name="PanicSpeed" value="0.9"/>
 		<property name="ExperienceGain" value="1255"/>
 		<property name="HandItem" value="handZombieRath50"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="176"/>
 	</entity_class>
 	<entity_class name="terrorRathGS100" extends="SDXTemplate">
@@ -7422,7 +7422,7 @@
 		<property name="PanicSpeed" value="0.9"/>
 		<property name="ExperienceGain" value="1455"/>
 		<property name="HandItem" value="handZombieRath100"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="176"/>
 	</entity_class>
 	<entity_class name="terrorRathGS300" extends="SDXTemplate">
@@ -7452,7 +7452,7 @@
 		<property name="PanicSpeed" value="0.9"/>
 		<property name="ExperienceGain" value="1855"/>
 		<property name="HandItem" value="handZombieRath300"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="176"/>
 	</entity_class>
 	<entity_class name="terrorRathGS500" extends="SDXTemplate">
@@ -7482,7 +7482,7 @@
 		<property name="PanicSpeed" value="0.9"/>
 		<property name="ExperienceGain" value="2155"/>
 		<property name="HandItem" value="handZombieRath500"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="176"/>
 	</entity_class>
 	<entity_class name="terrorRathGS700" extends="SDXTemplate">
@@ -7512,7 +7512,7 @@
 		<property name="PanicSpeed" value="0.9"/>
 		<property name="ExperienceGain" value="2555"/>
 		<property name="HandItem" value="handZombieRath700"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="176"/>
 	</entity_class>
 	<entity_class name="terrorRathGS1000" extends="SDXTemplate">
@@ -7542,7 +7542,7 @@
 		<property name="PanicSpeed" value="0.9"/>
 		<property name="ExperienceGain" value="2955"/>
 		<property name="HandItem" value="handZombieRath1000"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="176"/>
 	</entity_class>
 	<entity_class name="terrorRathGS1500" extends="SDXTemplate">
@@ -7572,7 +7572,7 @@
 		<property name="PanicSpeed" value="0.9"/>
 		<property name="ExperienceGain" value="3255"/>
 		<property name="HandItem" value="handZombieRath1500"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="176"/>
 	</entity_class>
 	<entity_class name="terrorRathGS2000" extends="SDXTemplate">
@@ -7602,7 +7602,7 @@
 		<property name="PanicSpeed" value="0.9"/>
 		<property name="ExperienceGain" value="3555"/>
 		<property name="HandItem" value="handZombieRath2000"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="176"/>
 	</entity_class>
 	<entity_class name="terrorRathGS3000" extends="SDXTemplate">
@@ -7632,7 +7632,7 @@
 		<property name="PanicSpeed" value="0.9"/>
 		<property name="ExperienceGain" value="4555"/>
 		<property name="HandItem" value="handZombieRath3000"/>
-		<property name="TimeStayAfterDeath" value="6"/>
+		<property name="TimeStayAfterDeath" value="4"/>
 		<property name="LootListOnDeath" value="176"/>
 	</entity_class>
 	<!-- Male -->

@@ -537,9 +537,6 @@
 			<!--		<window name="CRAFTWORX" anchor="RightTop" /> -->
 			<!-- Craftworx UI -->
 			<!-- Disable this if you don't want the Craftworx logo  -->
-			<window name="RAVENHEARST" anchor="RightTop" />
-			<!-- SMX UI -->
-			<!-- Disable this if you don't want the Ravenhearst logo -->
 			<!--		<window name="SMXLevelXPUF1SMX" anchor="LeftTop" /> -->
 			<!-- SMX UI -->
 			<!-- Disable this if you want to use the CRAFTWORX, VALMOD or SIRMOD designs -->
@@ -570,6 +567,7 @@
 		<!-- <<< SMX A16.4B8R2 START - BY SIRILLION >>> -->
 		<window_group name="toolbelt" actionSet="false">
 			<window name="SMXToolbelt1SMX" anchor="CenterBottom" />
+			<window name="SMXHUDLogo" anchor="RightTop" />
 			<!-- SMX UI -->
 			<!-- Disable this if you want to use the VALMOD or SIRMOD designs -->
 			<!--		<window name="SMXToolbelt2VALMOD" anchor="CenterBottom" /> -->
@@ -756,14 +754,7 @@
 		</window_group>
 		<!-- <<< SMX A16.4B8R2 START - BY SIRILLION >>> -->
 		<window_group name="ingameMenu">
-			<!--		<window name="ingameMenu" /> -->
-			<!--		<window name="SMXingameMenu" /> -->
-			<!--		<window name="SIRMODingameMenu" /> -->
-			<!--		<window name="VALMODingameMenu" /> -->
-			<!--		<window name="TRUESURVIVALingameMenu" /> -->
-			<!--		<window name="WotWingameMenu" /> -->
-			<!--		<window name="CRAFTWORXingameMenu" /> -->
-			<window name="RAVENHEARSTingameMenu" />
+			<window name="SMXIngameMenu" anchor="CenterCenter" />
 		</window_group>
 		<!-- <<< SMX A16.4B8R2 END - BY SIRILLION >>> -->
 		<window_group name="woPropsSleeperVolume">

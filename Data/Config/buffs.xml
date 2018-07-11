@@ -89,10 +89,10 @@
 	<buff id="criticalBlunt" hitmask="body;head" critical="true" duration="1" icon="ui_game_symbol_stunned" 	name_key="criticalBlunt" description_key="criticalBluntDesc" tooltip_key="criticalBluntTooltip" castsound="Buffs/critical_blunt">
 		<modify id="1" stat="health" amount="-100" rate="1"/>
 	</buff>
-	<buff id="dysentery" mutex="cured,dysentery2" type="sickness" actions="increment(@wellness, -0.02, 30t, 0, 0)" duration="2400" onexpired="dysentery2" 	icon="ui_game_symbol_dysentery" castsound="playersick" name_key="dysentery" description_key="dysenteryDesc" tooltip_key="dysenteryTooltip" cures="goldenRodTea,redTea,vitamins,herbalAntibiotics,antibiotics" causes="bottledRiverWater,canMurkyWater">
+	<buff id="dysentery" mutex="cured,dysentery2" type="sickness" actions="increment(@wellness, -0.02, 30t, 0, 0)" duration="2400" onexpired="dysentery2" 	icon="ui_game_symbol_dysentery" castsound="playersick" name_key="dysentery" description_key="dysenteryDesc" tooltip_key="dysenteryTooltip" cures="goldenRodTea,redTea,herbalAntibiotics,antibiotics,honeycomb,questItemToiletPaper,foodHoney" causes="bottledRiverWater,canMurkyWater">
 		<modify id="0" stat="stamina" amount="-1" rate="1"/>
 	</buff>
-	<buff id="dysentery2" duration="0" actions="increment(@wellness, -0.25, 100t, 0, 0)" type="sickness" 	icon="ui_game_symbol_dysentery" castsound="playersick" name_key="dysentery2" description_key="dysentery2Desc" tooltip_key="dysentery2Tooltip" cures="herbalAntibiotics,antibiotics" causes="bottledRiverWater,canMurkyWater">
+	<buff id="dysentery2" duration="0" actions="increment(@wellness, -0.25, 100t, 0, 0)" type="sickness" 	icon="ui_game_symbol_dysentery" castsound="playersick" name_key="dysentery2" description_key="dysentery2Desc" tooltip_key="dysentery2Tooltip" cures="herbalAntibiotics,antibiotics,honeycomb,foodHoney" causes="bottledRiverWater,canMurkyWater">
 		<modify id="0" stat="stamina" amount="-2" rate="1"/>
 		<modify id="1" stat="health" amount="-5" rate="60"/>
 	</buff>

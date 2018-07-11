@@ -4241,7 +4241,7 @@
 	<recipe name="plantedAppleTree1" count="1" craft_time="1" craft_area="mortarAndPestle">
 		<ingredient name="apple" count="1"/>
 	</recipe>
-	<recipe name="aloeCream" count="1"   craft_area="mortarAndPestle">
+	<recipe name="aloeCream" count="1"  >
 		<ingredient name="aloePlant" count="4"/>
 	</recipe>
 	<recipe name="plantedAloe1" count="1" craft_time="1"  craft_area="mortarAndPestle">

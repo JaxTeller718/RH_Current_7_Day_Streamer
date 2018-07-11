@@ -21563,7 +21563,6 @@
 			<property name="Gain_wellness" value="0.8" />
 			<property name="Gain_water" value="25" />
 			<property name="Buff" value="energyDrink" />
-			<property name="Debuff" value="dysentery" />
 		</property>
 	</item>
 	<item id="1286" name="coldbottledWater">
@@ -21648,7 +21647,6 @@
 		</property>
 		<property class="Action1">
 			<property name="Buff" value="energyDrink,yuccaJuiceCooling" />
-			<property name="Debuff" value="dysentery" />
 		</property>
 		<property name="DescriptionKey" value="coldDrinkDesc" />
 	</item>
@@ -26704,6 +26702,7 @@
 		<property name="Group" value="Tools,Tools/Traps" />
 		<property name="ActionSkillGroup" value="Locksmith" />
 		<property name="CraftingSkillGroup" value="Locksmith" />
+		<property name="SellableToTrader" value="false" />
 	</item>
 	<item id="1591" name="CZLockPickKit02">
 		<property name="Meshfile" value="#lockpick?pickLock" />
@@ -26731,6 +26730,7 @@
 		<property name="Group" value="Tools,Tools/Traps" />
 		<property name="ActionSkillGroup" value="Locksmith" />
 		<property name="CraftingSkillGroup" value="Locksmith" />
+		<property name="SellableToTrader" value="false" />
 	</item>
 	<item id="1592" name="CZLockPickKit03">
 		<property name="Meshfile" value="#lockpick?pickLock" />
@@ -26758,6 +26758,7 @@
 		<property name="Group" value="Tools,Tools/Traps" />
 		<property name="ActionSkillGroup" value="Locksmith" />
 		<property name="CraftingSkillGroup" value="Locksmith" />
+		<property name="SellableToTrader" value="false" />
 	</item>
 	<item id="1593" name="CZLockPickKit04">
 		<property name="Meshfile" value="#lockpick?pickLock" />
@@ -26785,6 +26786,7 @@
 		<property name="Group" value="Tools,Tools/Traps" />
 		<property name="ActionSkillGroup" value="Locksmith" />
 		<property name="CraftingSkillGroup" value="Locksmith" />
+		<property name="SellableToTrader" value="false" />
 	</item>
 	<item id="1594" name="CZlockpick01">
 		<property name="Meshfile" value="#RHWeapons?lockpickPrefab" />
@@ -26795,6 +26797,7 @@
 		<property name="DescriptionKey" value="lockpick01Desc" />
 		<property name="Group" value="Tools,Tools/Traps" />
 		<property name="CraftingSkillGroup" value="Locksmith" />
+		<property name="SellableToTrader" value="false" />
 	</item>
 	<item id="1595" name="CZlockpick02">
 		<property name="Meshfile" value="#RHWeapons?lockpick02" />
@@ -26806,6 +26809,7 @@
 		<property name="DescriptionKey" value="lockpick02Desc" />
 		<property name="Group" value="Tools,Tools/Traps" />
 		<property name="CraftingSkillGroup" value="Locksmith" />
+		<property name="SellableToTrader" value="false" />
 	</item>
 	<item id="1596" name="CZlockpick03">
 		<property name="Meshfile" value="#RHWeapons?lockpick03" />
@@ -26817,6 +26821,7 @@
 		<property name="DescriptionKey" value="lockpick03Desc" />
 		<property name="Group" value="Tools,Tools/Traps" />
 		<property name="CraftingSkillGroup" value="Locksmith" />
+		<property name="SellableToTrader" value="false" />
 	</item>
 	<item id="1597" name="CZlockpick04">
 		<property name="Meshfile" value="#RHWeapons?lockpick04" />
@@ -26828,6 +26833,7 @@
 		<property name="DescriptionKey" value="lockpick04Desc" />
 		<property name="Group" value="Tools,Tools/Traps" />
 		<property name="CraftingSkillGroup" value="Locksmith" />
+		<property name="SellableToTrader" value="false" />
 	</item>
 	<item id="1598" name="CZDrill">
 		<property name="Meshfile" value="#lockpick?pDrill" />
@@ -26863,6 +26869,7 @@
 		<property name="DescriptionKey" value="drillbitDesc" />
 		<property name="Group" value="Tools,Tools/Traps" />
 		<property name="CraftingSkillGroup" value="Locksmith" />
+		<property name="SellableToTrader" value="false" />
 	</item>
 	<!--     ********************************* *******************Stuff to Move Before Release******************** ********************************* -->
 	<item id="1600" name="testgun1">

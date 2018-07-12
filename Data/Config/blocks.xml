@@ -20712,6 +20712,7 @@
 		<property name="DescriptionKey" value="woodLogDesc" />
 		<property name="Group" value="Resources" />
 		<property name="ItemWeight" value="10" />
+		<property name="CanPickup" value="true"/>
 	</block>
 	<block id="2040" name="carpentryStation">
 		<property name="Extends" value="workbench"/>

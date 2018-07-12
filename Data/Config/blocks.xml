@@ -1573,6 +1573,7 @@
 		<property name="CreativeMode" value="None"/>
 		<property class="RepairItems">
 			<property name="scrapIron" value="8"/>
+			<property name="screws" value="2"/>
 		</property>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="flagstoneMaster"/>
@@ -1648,6 +1649,7 @@
 		<property name="CreativeMode" value="None"/>
 		<property class="RepairItems">
 			<property name="scrapIron" value="4"/>
+			<property name="screws" value="2"/>
 		</property>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="rScrapIronMaster"/>
@@ -6141,6 +6143,7 @@
 		<property name="CustomIcon" value="cntShippingCrateShamway"/>
 		<property name="DescriptionKey" value="cntLootCrateHeroDesc"/>
 		<property name="Material" value="wood_regular"/>
+		<property name="MaxDamage" value="500"/>
 		<property name="Texture" value="423"/>
 		<drop event="Destroy" count="0"/>
 		<property name="DowngradeBlock" value="cntLootCrateHero"/>
@@ -7428,6 +7431,7 @@
 		<property name="CustomIcon" value="cntShippingCrateShamway"/>
 		<property name="DescriptionKey" value="cntLootCrateLabEquipmentDesc"/>
 		<property name="Material" value="wood_regular"/>
+		<property name="MaxDamage" value="500"/>
 		<property name="Texture" value="423"/>
 		<drop event="Destroy" count="0"/>
 		<property name="DowngradeBlock" value="cntLootCrateLabEquipment"/>
@@ -8049,6 +8053,7 @@
 		<property name="CustomIcon" value="cntShippingCrateShamway"/>
 		<property name="DescriptionKey" value="cntShippingCrateGroupDesc"/>
 		<property name="Material" value="wood_regular"/>
+		<property name="MaxDamage" value="500"/>
 		<property name="Texture" value="423"/>
 		<drop event="Destroy" count="0"/>
 		<property name="DowngradeBlock" value="cntLootCrateShamway"/>
@@ -14333,6 +14338,7 @@
 	<block id="1701" name="supplyCrateBuilding">
 		<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs"/>
 		<property name="Material" value="wood_weak"/>
+		<property name="MaxDamage" value="500"/>
 		<property name="Texture" value="419,419,423,423,423,423"/>
 		<property name="ParticleOnDeath" value="supply_crate_gib_Prefab"/>
 		<drop event="Destroy" name="stick" count="4"/>
@@ -14351,6 +14357,7 @@
 		<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs"/>
 		<property name="Material" value="wood_weak"/>
 		<property name="Texture" value="284,284,423,423,423,423"/>
+		<property name="MaxDamage" value="500"/>
 		<property name="ParticleOnDeath" value="supply_crate_gib_Prefab"/>
 		<drop event="Destroy" name="stick" count="4"/>
 		<property name="DowngradeBlock" value="lootCrateHealthandArmor"/>
@@ -14368,6 +14375,7 @@
 		<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs"/>
 		<property name="Material" value="wood_weak"/>
 		<property name="Texture" value="418,418,423,423,423,423"/>
+		<property name="MaxDamage" value="500"/>
 		<property name="ParticleOnDeath" value="supply_crate_gib_Prefab"/>
 		<drop event="Destroy" name="stick" count="4"/>
 		<property name="DowngradeBlock" value="lootCrateAmmo"/>
@@ -14385,6 +14393,7 @@
 		<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs"/>
 		<property name="Material" value="wood_weak"/>
 		<property name="Texture" value="421,421,423,423,423,423"/>
+		<property name="MaxDamage" value="500"/>
 		<property name="ParticleOnDeath" value="supply_crate_gib_Prefab"/>
 		<drop event="Destroy" name="stick" count="4"/>
 		<property name="DowngradeBlock" value="lootCrateFoodandDrink"/>
@@ -14403,6 +14412,7 @@
 		<property name="CreativeMode" value="None"/>
 		<property name="Material" value="wood_weak"/>
 		<property name="Texture" value="422,422,423,423,423,423"/>
+		<property name="MaxDamage" value="500"/>
 		<property name="ParticleOnDeath" value="supply_crate_gib_Prefab"/>
 		<drop event="Destroy" name="stick" count="4"/>
 		<property name="DowngradeBlock" value="lootCrateWeapons"/>
@@ -14422,6 +14432,7 @@
 		<property name="CreativeMode" value="None"/>
 		<property name="Material" value="wood_weak"/>
 		<property name="Texture" value="572,572,423,423,423,423"/>
+		<property name="MaxDamage" value="500"/>
 		<property name="ParticleOnDeath" value="supply_crate_gib_Prefab"/>
 		<drop event="Destroy" name="stick" count="4"/>
 		<property name="DowngradeBlock" value="lootCrateBooks"/>
@@ -20891,7 +20902,7 @@
 		<property name="OnlySimpleRotations" value="true"/>
 		<property class="UpgradeBlock">
 			<property name="ToBlock" value="animalTrapWaiting"/>
-			<property name="Item" value="jerky"/>
+			<property name="Item" value="animalBait"/>
 			<property name="ItemCount" value="2"/>
 			<property name="UpgradeHitCount" value="1"/>
 		</property>

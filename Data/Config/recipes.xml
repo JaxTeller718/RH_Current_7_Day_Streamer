@@ -2969,7 +2969,7 @@
 	<recipe name="signNationalPark" count="1"  craft_area="decoStation">
 		<ingredient name="shortMetalPipe" count="5"/>
 		<ingredient name="forgedIron" count="2"/>
-		<ingredient name="rebarFrameBlock" count="10"/>
+		<ingredient name="rebar" count="10"/>
 		<ingredient name="concreteMix" count="100"/>
 		<ingredient name="woodPlanks" count="100"/>
 	</recipe>
@@ -4241,7 +4241,7 @@
 	<recipe name="plantedAppleTree1" count="1" craft_time="1" craft_area="mortarAndPestle">
 		<ingredient name="apple" count="1"/>
 	</recipe>
-	<recipe name="aloeCream" count="1"  >
+	<recipe name="aloeCream" count="1" >
 		<ingredient name="aloePlant" count="4"/>
 	</recipe>
 	<recipe name="plantedAloe1" count="1" craft_time="1"  craft_area="mortarAndPestle">
@@ -4720,63 +4720,63 @@
 		<ingredient name="cement" count="4"/>
 	</recipe>
 	<recipe name="graveStone01" count="1" craft_area="cementMixer" craft_tool="trowel">
-		<ingredient name="rebarFrameBlock" count="1"/>
+		<ingredient name="rebar" count="1"/>
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
 	<recipe name="graveStone02" count="1" craft_area="cementMixer" craft_tool="trowel">
-		<ingredient name="rebarFrameBlock" count="1"/>
+		<ingredient name="rebar" count="1"/>
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
 	<recipe name="graveStone03" count="1" craft_area="cementMixer" craft_tool="trowel">
-		<ingredient name="rebarFrameBlock" count="1"/>
+		<ingredient name="rebar" count="1"/>
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
 	<recipe name="graveStone04" count="1" craft_area="cementMixer" craft_tool="trowel">
-		<ingredient name="rebarFrameBlock" count="1"/>
+		<ingredient name="rebar" count="1"/>
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
 	<recipe name="graveStone05" count="1" craft_area="cementMixer" craft_tool="trowel">
-		<ingredient name="rebarFrameBlock" count="1"/>
+		<ingredient name="rebar" count="1"/>
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
 	<recipe name="graveStone06" count="1" craft_area="cementMixer" craft_tool="trowel">
-		<ingredient name="rebarFrameBlock" count="1"/>
+		<ingredient name="rebar" count="1"/>
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
 	<recipe name="graveStone07" count="1" craft_area="cementMixer" craft_tool="trowel">
-		<ingredient name="rebarFrameBlock" count="1"/>
+		<ingredient name="rebar" count="1"/>
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
 	<recipe name="graveStone08" count="1" craft_area="cementMixer" craft_tool="trowel">
-		<ingredient name="rebarFrameBlock" count="1"/>
+		<ingredient name="rebar" count="1"/>
 		<ingredient name="concreteMix" count="10"/>
 	</recipe>
 	<recipe name="statue01" count="1" craft_area="cementMixer" craft_tool="trowel">
-		<ingredient name="rebarFrameBlock" count="1"/>
+		<ingredient name="rebar" count="1"/>
 		<ingredient name="concreteMix" count="20"/>
 	</recipe>
 	<recipe name="statue02" count="1" craft_area="cementMixer" craft_tool="trowel">
-		<ingredient name="rebarFrameBlock" count="1"/>
+		<ingredient name="rebar" count="1"/>
 		<ingredient name="concreteMix" count="20"/>
 	</recipe>
 	<recipe name="statue03" count="1" craft_area="cementMixer" craft_tool="trowel">
-		<ingredient name="rebarFrameBlock" count="1"/>
+		<ingredient name="rebar" count="1"/>
 		<ingredient name="concreteMix" count="20"/>
 	</recipe>
 	<recipe name="statue04" count="1" craft_area="cementMixer" craft_tool="trowel">
-		<ingredient name="rebarFrameBlock" count="1"/>
+		<ingredient name="rebar" count="1"/>
 		<ingredient name="concreteMix" count="20"/>
 	</recipe>
 	<recipe name="statue05" count="1" craft_area="cementMixer" craft_tool="trowel">
-		<ingredient name="rebarFrameBlock" count="1"/>
+		<ingredient name="rebar" count="1"/>
 		<ingredient name="concreteMix" count="20"/>
 	</recipe>
 	<recipe name="statue06" count="1" craft_area="cementMixer" craft_tool="trowel">
-		<ingredient name="rebarFrameBlock" count="1"/>
+		<ingredient name="rebar" count="1"/>
 		<ingredient name="concreteMix" count="20"/>
 	</recipe>
 	<recipe name="statue07" count="1" craft_area="cementMixer" craft_tool="trowel">
-		<ingredient name="rebarFrameBlock" count="1"/>
+		<ingredient name="rebar" count="1"/>
 		<ingredient name="concreteMix" count="20"/>
 	</recipe>
 	<recipe name="bridgeAsphaltBlock" count="1" craft_area="cementMixer">
@@ -5521,6 +5521,14 @@
 	<recipe name="charredFish" count="1" craft_time="8" craft_area="campfire">
 		<ingredient name="rawFish" count="1"/>
 	</recipe>
+	<recipe name="insectsJar" count="1" craft_area="campfire">
+		<ingredient name="insects" count="15"/>
+		<ingredient name="emptyJar" count="1"/>
+	</recipe>
+	<recipe name="insectsCan" count="1" craft_area="campfire">
+		<ingredient name="insects" count="15"/>
+		<ingredient name="canEmpty" count="1"/>
+	</recipe>
 	<!-- ADVANCED CAMPFIRE -->
 	<recipe name="creamedCorn" count="1" craft_area="advancedCampfire">
 		<ingredient name="bowlWater" count="1"/>
@@ -5656,6 +5664,14 @@
 	<recipe name="redTea" count="1" craft_area="advancedCampfire">
 		<ingredient name="chrysanthemumPlant" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
+	</recipe>
+	<recipe name="insectsJar" count="1" craft_area="advancedCampfire">
+		<ingredient name="insects" count="15"/>
+		<ingredient name="emptyJar" count="1"/>
+	</recipe>
+	<recipe name="insectsCan" count="1" craft_area="advancedCampfire">
+		<ingredient name="insects" count="15"/>
+		<ingredient name="canEmpty" count="1"/>
 	</recipe>
 	<recipe name="tallow" count="1" craft_area="advancedCampfire">
 		<ingredient name="animalFat" count="1"/>
@@ -6222,5 +6238,9 @@
 	</recipe>
 	<recipe name="charcoal" count="15" >
 		<ingredient name="bagOfCharcoal" count="1"/>
+	</recipe>
+	<recipe name="animalBait" count="2" >
+		<ingredient name="trailMix" count="1"/>
+		<ingredient name="jerky" count="1"/>
 	</recipe>
 </recipes>

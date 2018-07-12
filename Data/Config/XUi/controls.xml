@@ -738,9 +738,9 @@
 		</rect>
 	</quest_objective_tracker_entry>
 	<quest_reward_entry>
-		<rect width="625" height="43" controller="QuestRewardEntry" visible="{hasreward}" >
+		<rect width="325" height="24" controller="QuestRewardEntry" visible="{hasreward}" >
 			<sprite depth="0" name="Icon" sprite="{rewardicon}" style="icon22px" pos="4,0" foregroundlayer="true" UIAtlas="{rewardiconatlas}"/>
-			<label depth="4" name="Description" pos="30,0" width="600" height="28" text="{rewardtype}: {rewarddescription}: [DECEA3]{rewardvalue}[-]" upper_case="false"  font_size="26" />
+			<label depth="4" name="Description" pos="30,0" width="300" height="22" text="{rewardtype}: {rewarddescription}: [DECEA3]{rewardvalue}[-]" upper_case="false"  font_size="20" />
 		</rect>
 	</quest_reward_entry>
 	<quest_search>

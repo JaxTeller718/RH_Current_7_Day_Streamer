@@ -23,10 +23,10 @@
 		<label name="Version" depth="2" pos="0, -490" pivot="center" size="250,33" text="SMX-A16.4B8RX" font_size="14" effect="outline" color="[white]" justify="center" />
 		<!-- Set version here -->
 		<texture style="SMXInfoHeader" depth="2" pos="800,300" pivot="center" />
-		<label name="InfoHeader" depth="3" pos="800,360" pivot="center" size="500,50" text="CHANGELOG" font_size="40" effect="outline" color="[white]" justify="center" />
+		<label name="InfoHeader" depth="3" pos="800,360" pivot="center" size="500,50" text="HELPFUL HINTS" font_size="40" effect="outline" color="[white]" justify="center" />
 		<texture style="SMXChangeLog" depth="3" pos="800,60" pivot="center" />
 		<texture style="SMXInfoHeader" depth="2" pos="800,-320" pivot="center" />
-		<label name="InfoHeader" depth="3" pos="800,-260" pivot="center" size="500,50" text="SERVER INFORMATION" font_size="40" effect="outline" color="[white]" justify="center" />
+		<label name="InfoHeader" depth="3" pos="800,-260" pivot="center" size="500,50" text="MOD VERSION" font_size="40" effect="outline" color="[white]" justify="center" />
 		<texture style="SMXServerInfo" depth="3" pos="800,-400" pivot="center" />
 	</window>
 	<!-- <<< HUD LOGO, SERVER INFORMATION & INGAME MAIN MENU <<< -->
@@ -803,7 +803,7 @@
 	<!-- The following section handles: The INGAME MAIN MENU : RAVENHEARST DESIGN -->
 	<window name="RAVENHEARSTingameMenu" anchor="CenterCenter" pos="-125,200" width="250" height="200" controller="InGameMenuWindow" cursor_area="true">
 		<texture name="RAVENHEARST" depth="0" size="788,788" texture="@file:Mods\SMX\Textures\Misc\rhmenulogo.png" material="Materials/Transparent Colored" pos="-268,290" />
-		<label name="RAVENHEARSTVersion" pos="190, -5" depth="0" size="250,33" text="v4.0.1" font_size="38" effect="outline" color="[white]" justify="center" />
+		<label name="RAVENHEARSTVersion" pos="190, -5" depth="0" size="250,33" text="v4.0.2" font_size="38" effect="outline" color="[white]" justify="center" />
 		<!-- SIRILLION: -->
 		<grid name="buttons" pos="0, -100" cols="1" width="250" cell_width="250" cell_height="56" arrangement="vertical" repeat_content="false" >
 			<simplebutton name="btnOptions" depth="3" width="250" height="46" caption_key="xuiMenuOptions" font_size="40" />
@@ -2488,18 +2488,18 @@
 		</rect>
 	</window>
 	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
-	<window name="windowQuestRewards" width="653" height="199" panel="Center" controller="QuestRewardsWindow" cursor_area="true" >
+	<window name="windowQuestRewards" width="653" height="228" panel="Center" controller="QuestRewardsWindow" cursor_area="true" >
 		<!--#$-IGS END.-$#-->
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<sprite depth="2" name="windowIcon" style="icon32px" pos="4,-5" sprite="ui_game_symbol_quest"/>
 			<label style="header.name" text="REWARDS" text_key="xuiRewards" />
 			<label depth="2" pos="345,-8" width="300" height="28" text="{finishtime}" color="[lightGrey]" justify="right" upper_case="false" />
 		</panel>
-		<rect name="content" pos="0,-46" height="153" depth="1">
+		<rect name="content" pos="0,-46" height="182" depth="1">
 			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
 			<sprite color="[darkGrey]" type="sliced" />
 			<rect visible="{showquest}">
-				<grid name="rewardList" rows="5" cols="1" pos="12,-10" width="600" height="368" cell_width="300" cell_height="30" repeat_content="true" arrangement="vertical" controller="QuestRewardList">
+				<grid name="rewardList" rows="7" cols="2" pos="12,-10" width="600" height="174" cell_width="325" cell_height="24" repeat_content="true" arrangement="vertical" controller="QuestRewardList">
 					<quest_reward_entry name="0" />
 				</grid>
 			</rect>

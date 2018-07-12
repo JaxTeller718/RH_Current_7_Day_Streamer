@@ -484,11 +484,11 @@
 					<buff id="infectionActivatorInfectious" duration="1" requires="infectious" mutex="cured,infection,infectionBase,infection1,infection2,infection3" actions="buff(infection)" type="sickness"/>
 					<buff id="infection" duration="1" onexpired="infectionReset" mutex="cured,infectionBase" actions="setvar(infected, 0)" type="sickness"/>
 					<buff id="infectionReset" duration="1" mutex="cured" actions="increment(infected, 10, 0, 0, 1);buff(infectionBase)" type="sickness" />
-					<buff id="infectionBase" ondebuff="cured" debuffif="infected less 1" mutex="cured" actions="increment(infected, 2, 4t, 0, 0);increment(fatigue, 1, 100t, 0, 0)" type="sickness"/>
+					<buff id="infectionBase" ondebuff="cured" debuffif="infected less 1" mutex="cured" actions="increment(infected, 2, 4t, 0, 0);increment(fatigue, 1, 100t, 0, 0);increment(@wellness, -0.05, 100t, 0, 0)" type="sickness"/>
 					<buff id="infectionNotification" buffif="infected gequal 240" mutex="cured,infection1,infection2,infection3" debuffif="infected less 1" type="sickness" icon="ui_game_symbol_infection" name_key="Minor Infection" description_key="Close inspection reveals a minor infection." tooltip_key="Minor Infection" cures="antibiotics,herbalAntibiotics,honeycomb,vitamins,painkillers">
 						<modify id="1" stat="health" amount="-1" rate="60" type="sickness"/>
 						<modify id="2" stat="food" amount="-1" rate="60"/>
-						<modify id="3" stat="water" amount="-1" rate="30"/>
+						<modify id="3" stat="water" amount="-1" rate="60"/>
 					</buff>
 					<buff id="infection1" buffif="infected gequal 960" debuffif="infected lequal 959" mutex="infection2,infection3" actions="debuff(infectionNotification)" type="sickness" icon="ui_game_symbol_infection" name_key="Infection" description_key="infection1Desc" tooltip_key="infection1Tooltip" cures="antibiotics,herbalAntibiotics,honeycomb,vitamins,painkillers">
 						<modify id="1" stat="health" amount="-1" rate="30" type="sickness"/>
@@ -502,8 +502,8 @@
 					</buff>
 					<buff id="infection3" buffif="infected gequal 2880" debuffif="infected lequal 2879" actions="debuff(infection2);damage(5,100t,0,15)" type="sickness" icon="ui_game_symbol_infection" name_key="Extreme Infection" description_key="infection3Desc" tooltip_key="infection3Tooltip" cures="antibiotics,herbalAntibiotics,honeycomb,vitamins,painkillers">
 						<modify id="1" stat="health" amount="-1" rate="5" type="sickness"/>
-						<modify id="2" stat="food" amount="-1" rate="30"/>
-						<modify id="3" stat="water" amount="-1" rate="30"/>
+						<modify id="2" stat="food" amount="-1" rate="15"/>
+						<modify id="3" stat="water" amount="-1" rate="15"/>
 					</buff>
 					<buff id="infection4" buffif="infected gequal 3840" actions="setvar(infected, 0);kill" icon="ui_game_symbol_infection" name_key="infection4" description_key="infection4Desc" tooltip_key="infection4Tooltip" type="sickness"/>
 					<buff id="brokenLeg" duration="9000" stack="reset" actions="debuff(firstAid);debuff(splint);debuff(sprainedLeg);buff(woundActivatorClean);buff(woundActivatorDirty);buff(woundActivatorGrimy);buff(woundActivatorFilthy);buff(woundActivatorInfectious)" type="speedmodifier" icon="ui_game_symbol_brokenbone" name_key="brokenLeg" description_key="brokenLegDesc" tooltip_key="brokenLegTooltip" cures="splint,reinforcedSplint">
@@ -530,43 +530,43 @@
 					<buff id="rinsingOffSmall" duration="1" mutex="fullyClean" actions="increment(hygiene, -300, 0, 0, 1);min(hygiene, 0)" icon="ui_game_symbol_water" name_key="Rinsing off" description_key="Rinsing off will not get you completly clean." tooltip_key="Rinsing off"/>
 					<buff id="bathing" buffif="+water > 5" debuffif="-water > 1" mutex="fullyClean" actions="increment(hygiene, -120, 1, 0, 0)" icon="ui_game_symbol_water" name_key="Bathing" description_key="You are bathing and will become clean over time." tooltip_key="Bathing"/><buff id="cured2" stack="reset" duration="2400t" actions="increment(@wellness, 0.5, 1200t, 0, 0)" icon="ui_game_symbol_pills" name_key="Vitamins" description_key="Increases wellness slowly over time." tooltip_key="Slowly Increases Wellness." />
 						<buff id="warmByFire" onexpired="warmByFire2" duration="10" stack="discard" buffif="+heatSource gequal 1" debuffif="+heatSource less 1" type="coretemp" icon="ui_game_symbol_campfire" name_key="warmByFire" description_key="warmByFireDesc" tooltip_key="warmByFireTooltip">
-							<modify id="0" stat="coretemp" modifyValue="30"/>
+							<modify id="0" stat="coretemp" modifyValue="20"/>
 						</buff>
 						<buff id="warmByFire2" onexpired="warmByFire3" duration="10" stack="discard" debuffif="+heatSource less 1" type="coretemp" icon="ui_game_symbol_campfire" name_key="warmByFire" description_key="warmByFireDesc" tooltip_key="warmByFireTooltip">
-							<modify id="0" stat="coretemp" modifyValue="35"/>
+							<modify id="0" stat="coretemp" modifyValue="25"/>
 						</buff>
 						<buff id="warmByFire3" onexpired="warmByFire4" duration="10" stack="discard" debuffif="+heatSource less 1" type="coretemp" icon="ui_game_symbol_campfire" name_key="warmByFire" description_key="warmByFireDesc" tooltip_key="warmByFireTooltip">
-							<modify id="0" stat="coretemp" modifyValue="40"/>
+							<modify id="0" stat="coretemp" modifyValue="30"/>
 						</buff>
 						<buff id="warmByFire4" onexpired="warmByFire5" duration="10" stack="discard" debuffif="+heatSource less 1" type="coretemp" icon="ui_game_symbol_campfire" name_key="warmByFire" description_key="warmByFireDesc" tooltip_key="warmByFireTooltip">
-							<modify id="0" stat="coretemp" modifyValue="45"/>
+							<modify id="0" stat="coretemp" modifyValue="35"/>
 						</buff>
 						<buff id="warmByFire5" onexpired="warmByFire6" duration="10" stack="discard" debuffif="+heatSource less 1" type="coretemp" icon="ui_game_symbol_campfire" name_key="warmByFire" description_key="warmByFireDesc" tooltip_key="warmByFireTooltip">
-							<modify id="0" stat="coretemp" modifyValue="50"/>
+							<modify id="0" stat="coretemp" modifyValue="40"/>
 						</buff>
 						<buff id="warmByFire6" onexpired="warmByFire7" duration="10" stack="discard" debuffif="+heatSource less 1" type="coretemp" icon="ui_game_symbol_campfire" name_key="warmByFire" description_key="warmByFireDesc" tooltip_key="warmByFireTooltip">
-							<modify id="0" stat="coretemp" modifyValue="55"/>
+							<modify id="0" stat="coretemp" modifyValue="45"/>
 						</buff>
 						<buff id="warmByFire7" onexpired="warmByFire8" duration="10" stack="discard" debuffif="+heatSource less 1" type="coretemp" icon="ui_game_symbol_campfire" name_key="warmByFire" description_key="warmByFireDesc" tooltip_key="warmByFireTooltip">
-							<modify id="0" stat="coretemp" modifyValue="60"/>
+							<modify id="0" stat="coretemp" modifyValue="50"/>
 						</buff>
 						<buff id="warmByFire8" onexpired="warmByFire9" duration="10" stack="discard" debuffif="+heatSource less 1" type="coretemp" icon="ui_game_symbol_campfire" name_key="warmByFire" description_key="warmByFireDesc" tooltip_key="warmByFireTooltip">
-							<modify id="0" stat="coretemp" modifyValue="65"/>
+							<modify id="0" stat="coretemp" modifyValue="55"/>
 						</buff>
 						<buff id="warmByFire9" onexpired="warmByFire10" duration="10" stack="discard" debuffif="+heatSource less 1" type="coretemp" icon="ui_game_symbol_campfire" name_key="warmByFire" description_key="warmByFireDesc" tooltip_key="warmByFireTooltip">
-							<modify id="0" stat="coretemp" modifyValue="70"/>
+							<modify id="0" stat="coretemp" modifyValue="60"/>
 						</buff>
 						<buff id="warmByFire10" onexpired="warmByFire11" duration="10" stack="discard" debuffif="+heatSource less 1" type="coretemp" icon="ui_game_symbol_campfire" name_key="warmByFire" description_key="warmByFireDesc" tooltip_key="warmByFireTooltip">
-							<modify id="0" stat="coretemp" modifyValue="75"/>
+							<modify id="0" stat="coretemp" modifyValue="65"/>
 						</buff>
 						<buff id="warmByFire11" onexpired="warmByFire12" duration="10" stack="discard" debuffif="+heatSource less 1" type="coretemp" icon="ui_game_symbol_campfire" name_key="warmByFire" description_key="warmByFireDesc" tooltip_key="warmByFireTooltip">
-							<modify id="0" stat="coretemp" modifyValue="80"/>
+							<modify id="0" stat="coretemp" modifyValue="70"/>
 						</buff>
 						<buff id="warmByFire12" onexpired="warmByFire13" duration="10" stack="discard" debuffif="+heatSource less 1" type="coretemp" icon="ui_game_symbol_campfire" name_key="warmByFire" description_key="warmByFireDesc" tooltip_key="warmByFireTooltip">
-							<modify id="0" stat="coretemp" modifyValue="85"/>
+							<modify id="0" stat="coretemp" modifyValue="75"/>
 						</buff>
 						<buff id="warmByFire13" stack="discard" duration="0" debuffif="+heatSource less 1" type="coretemp" icon="ui_game_symbol_campfire" name_key="warmByFire" description_key="warmByFireDesc" tooltip_key="warmByFireTooltip">
-							<modify id="0" stat="coretemp" modifyValue="90"/>
+							<modify id="0" stat="coretemp" modifyValue="80"/>
 						</buff>
                         <buff id="FatigueMain" duration="0" buffif="coretemp lequal 300" actions="increment(fatigue, 1, 60t, 0, 0)" type="staminadown"/>
 						<buff id="rested" duration="0" buffif="fatigue less 1" debuffif="fatigue gequal 16" actions="debuff(sleepingChairEffect2);debuff(sleepingCouchEffect2);debuff(sleepingBagEffect2);debuff(sleepingBedEffect2);debuff(sleepingBigBedEffect2)" type="staminadown" icon="ui_game_symbol_map_bed" name_key="Well Rested" description_key="You are well rested." tooltip_key="You are well rested" />

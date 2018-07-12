@@ -1741,6 +1741,222 @@
 		<item name="carrotCake"/>
 		<item name="grillSteak"/>
 	</lootgroup>
+	<lootgroup name="airdropClothes"  loot_quality_template="baseTemplate">
+		<item name="leatherBootsRed"/>
+		<item name="leatherGlovesRed"/>
+		<item name="leatherHoodRed"/>
+		<item name="leatherJacketRed"/>
+		<item name="leatherPantsRed"/>
+		<item name="leatherBootsBlue"/>
+		<item name="leatherGlovesBlue"/>
+		<item name="leatherHoodBlue"/>
+		<item name="leatherJacketBlue"/>
+		<item name="leatherPantsBlue"/>
+		<item name="leatherBootsGreen"/>
+		<item name="leatherGlovesGreen"/>
+		<item name="leatherHoodGreen"/>
+		<item name="leatherJacketGreen"/>
+		<item name="leatherPantsGreen"/>
+		<item name="leatherBootsPurple"/>
+		<item name="leatherGlovesPurple"/>
+		<item name="leatherHoodPurple"/>
+		<item name="leatherJacketPurple"/>
+		<item name="leatherPantsPurple"/>
+		<item name="leatherBootsYellow"/>
+		<item name="leatherGlovesYellow"/>
+		<item name="leatherHoodYellow"/>
+		<item name="leatherJacketYellow"/>
+		<item name="leatherPantsYellow"/>
+		<item name="leatherBootsOrange"/>
+		<item name="leatherGlovesOrange"/>
+		<item name="leatherHoodOrange"/>
+		<item name="leatherJacketOrange"/>
+		<item name="leatherPantsOrange"/>
+		<item name="leatherBootsBlack"/>
+		<item name="leatherGlovesBlack"/>
+		<item name="leatherJacketBlack"/>
+		<item name="leatherPantsBlack"/>
+		<item name="ironHelmetRed"/>
+		<item name="ironChestArmorRed"/>
+		<item name="ironGlovesRed"/>
+		<item name="ironHelmetRed"/>
+		<item name="ironLegArmorRed"/>
+		<item name="ironBootsBlue"/>
+		<item name="ironChestArmorBlue"/>
+		<item name="ironGlovesBlue"/>
+		<item name="ironHelmetBlue"/>
+		<item name="ironLegArmorBlue"/>
+		<item name="ironBootsGreen"/>
+		<item name="ironChestArmorGreen"/>
+		<item name="ironGlovesGreen"/>
+		<item name="ironHelmetGreen"/>
+		<item name="ironLegArmorGreen"/>
+		<item name="ironBootsPurple"/>
+		<item name="ironChestArmorPurple"/>
+		<item name="ironGlovesPurple"/>
+		<item name="ironHelmetPurple"/>
+		<item name="ironLegArmorPurple"/>
+		<item name="ironBootsLime"/>
+		<item name="ironChestArmorLime"/>
+		<item name="ironGlovesLime"/>
+		<item name="ironHelmetLime"/>
+		<item name="ironLegArmorLime"/>
+		<item name="ironBootsOrange"/>
+		<item name="ironChestArmorOrange"/>
+		<item name="ironGlovesOrange"/>
+		<item name="ironHelmetOrange"/>
+		<item name="ironLegArmorOrange"/>
+		<item name="ironBootsBlack"/>
+		<item name="ironChestArmorBlack"/>
+		<item name="ironGlovesBlack"/>
+		<item name="ironHelmetBlack"/>
+		<item name="ironLegArmorBlack"/>
+		<item name="scrapBootsRed"/>
+		<item name="scrapChestArmorRed"/>
+		<item name="scrapGlovesRed"/>
+		<item name="scrapHelmetRed"/>
+		<item name="scrapLegArmorRed"/>
+		<item name="scrapBootsBlue"/>
+		<item name="scrapChestArmorBlue"/>
+		<item name="scrapGlovesBlue"/>
+		<item name="scrapHelmetBlue"/>
+		<item name="scrapLegArmorBlue"/>
+		<item name="scrapBootsGreen"/>
+		<item name="scrapChestArmorGreen"/>
+		<item name="scrapGlovesGreen"/>
+		<item name="scrapHelmetGreen"/>
+		<item name="scrapLegArmorGreen"/>
+		<item name="scrapBootsPurple"/>
+		<item name="scrapChestArmorPurple"/>
+		<item name="scrapGlovesPurple"/>
+		<item name="scrapHelmetPurple"/>
+		<item name="scrapLegArmorPurple"/>
+		<item name="scrapBootsLime"/>
+		<item name="scrapChestArmorLime"/>
+		<item name="scrapGlovesLime"/>
+		<item name="scrapHelmetLime"/>
+		<item name="scrapLegArmorLime"/>
+		<item name="scrapBootsOrange"/>
+		<item name="scrapChestArmorOrange"/>
+		<item name="scrapGlovesOrange"/>
+		<item name="scrapHelmetOrange"/>
+		<item name="scrapLegArmorOrange"/>
+		<item name="scrapBootsBlack"/>
+		<item name="scrapChestArmorBlack"/>
+		<item name="scrapGlovesBlack"/>
+		<item name="scrapHelmetBlack"/>
+		<item name="scrapLegArmorBlack"/>
+		<item name="clothBootsRed"/>
+		<item name="clothGlovesRed"/>
+		<item name="clothHatRed"/>
+		<item name="clothJacketRed"/>
+		<item name="clothPantsRed"/>
+		<item name="clothBootsBlue"/>
+		<item name="clothGlovesBlue"/>
+		<item name="clothHatBlue"/>
+		<item name="clothJacketBlue"/>
+		<item name="clothPantsBlue"/>
+		<item name="clothBootsGreen"/>
+		<item name="clothGlovesGreen"/>
+		<item name="clothHatGreen"/>
+		<item name="clothJacketGreen"/>
+		<item name="clothPantsGreen"/>
+		<item name="clothBootsPurple"/>
+		<item name="clothGlovesPurple"/>
+		<item name="clothHatPurple"/>
+		<item name="clothJacketPurple"/>
+		<item name="clothPantsPurple"/>
+		<item name="clothBootsLime"/>
+		<item name="clothGlovesLime"/>
+		<item name="clothHatLime"/>
+		<item name="clothJacketLime"/>
+		<item name="clothPantsLime"/>
+		<item name="clothBootsOrange"/>
+		<item name="clothGlovesOrange"/>
+		<item name="clothHatOrange"/>
+		<item name="clothJacketOrange"/>
+		<item name="clothPantsOrange"/>
+		<item name="clothBootsBlack"/>
+		<item name="clothGlovesBlack"/>
+		<item name="clothHatBlack"/>
+		<item name="clothJacketBlack"/>
+		<item name="clothPantsBlack"/>
+		<item name="animalHideBootsRed"/>
+		<item name="animalHideGlovesRed"/>
+		<item name="animalHideHoodRed"/>
+		<item name="animalHideChestArmorRed"/>
+		<item name="animalHideLegArmorRed"/>
+		<item name="animalHideBootsBlue"/>
+		<item name="animalHideGlovesBlue"/>
+		<item name="animalHideHoodBlue"/>
+		<item name="animalHideChestArmorBlue"/>
+		<item name="animalHideLegArmorBlue"/>
+		<item name="animalHideBootsGreen"/>
+		<item name="animalHideGlovesGreen"/>
+		<item name="animalHideHoodGreen"/>
+		<item name="animalHideChestArmorGreen"/>
+		<item name="animalHideLegArmorGreen"/>
+		<item name="animalHideBootsPurple"/>
+		<item name="animalHideGlovesPurple"/>
+		<item name="animalHideHoodPurple"/>
+		<item name="animalHideChestArmorPurple"/>
+		<item name="animalHideLegArmorPurple"/>
+		<item name="animalHideBootsLime"/>
+		<item name="animalHideGlovesLime"/>
+		<item name="animalHideHoodLime"/>
+		<item name="animalHideChestArmorLime"/>
+		<item name="animalHideLegArmorLime"/>
+		<item name="animalHideBootsOrange"/>
+		<item name="animalHideGlovesOrange"/>
+		<item name="animalHideHoodOrange"/>
+		<item name="animalHideChestArmorOrange"/>
+		<item name="animalHideLegArmorOrange"/>
+		<item name="animalHideBootsBlack"/>
+		<item name="animalHideGlovesBlack"/>
+		<item name="animalHideHoodBlack"/>
+		<item name="animalHideChestArmorBlack"/>
+		<item name="animalHideLegArmorBlack"/>
+		<item name="leatherDusterBlue"/>
+		<item name="leatherDusterRed"/>
+		<item name="leatherDusterPurple"/>
+		<item name="leatherDusterLime"/>
+		<item name="leatherDusterOrange"/>
+		<item name="steelBootsRed"/>
+		<item name="steelChestplateRed"/>
+		<item name="steelGlovesRed"/>
+		<item name="steelHelmetRed"/>
+		<item name="steelLegsRed"/>
+		<item name="steelBootsBlue"/>
+		<item name="steelChestplateBlue"/>
+		<item name="steelGlovesBlue"/>
+		<item name="steelHelmetBlue"/>
+		<item name="steelLegsBlue"/>
+		<item name="steelBootsGreen"/>
+		<item name="steelChestplateGreen"/>
+		<item name="steelGlovesGreen"/>
+		<item name="steelHelmetGreen"/>
+		<item name="steelLegsGreen"/>
+		<item name="steelBootsPurple"/>
+		<item name="steelChestplatePurple"/>
+		<item name="steelGlovesPurple"/>
+		<item name="steelHelmetPurple"/>
+		<item name="steelLegsPurple"/>
+		<item name="steelBootsLime"/>
+		<item name="steelChestplateLime"/>
+		<item name="steelGlovesLime"/>
+		<item name="steelHelmetLime"/>
+		<item name="steelLegsLime"/>
+		<item name="steelBootsOrange"/>
+		<item name="steelChestplateOrange"/>
+		<item name="steelGlovesOrange"/>
+		<item name="steelHelmetOrange"/>
+		<item name="steelLegsOrange"/>
+		<item name="steelBootsBlack"/>
+		<item name="steelChestplateBlack"/>
+		<item name="steelGlovesBlack"/>
+		<item name="steelHelmetBlack"/>
+		<item name="steelLegsBlack"/>
+	</lootgroup>
 	<lootgroup name="coldfood"  loot_quality_template="baseTemplate">
 		<item name="egg" count="1,4"/>
 		<item name="redMeat" count="1,4"/>
@@ -2264,15 +2480,93 @@
 	</lootgroup>
 	<lootgroup name="airdropMedicine"  loot_quality_template="baseTemplate">
 		<item name="painkillers" count="1,3"/>
+		<item name="wetTowelSoap" count="1,3"/>
+		<item name="wetTowel" count="1,3"/>
+		<item name="painkillers" count="1,3"/>
+		<item name="honeycomb" count="1,3"/>
+		<item name="herbalAntibiotics" count="1,3"/>
 		<item name="firstAidKit" count="1,2"/>
 		<item name="antibiotics" count="1,2" prob="0.35"/>
 		<item name="beaker" count="0,1"/>
-		<item name="Peroxide" count="1,2"/>
+		<item name="Peroxide" count="1,3"/>
 		<item name="reinforcedSplint" count="0,2"/>
-		<item name="emptyNeedle" count="1,4"/>
+		<item name="emptyNeedle" count="1,6"/>
+		<item name="foodHoney" count="1,2"/>
 		<item name="blueIce" count="0,2"/>
 		<item name="antiRad" count="0,1"/>
 		<item name="antiVenom" count="0,1"/>
+	</lootgroup>
+	<lootgroup name="airdropBooks"  loot_quality_template="baseTemplate">
+		<item name="recipebookGardenTools" />
+		<item name="gasCanSchematic"/>
+		<item name="fishingRodSchematic"/>
+		<item name="huntingKnifeBook"/>
+		<item name="pistolBookPage" />
+		<item name="smgSchematicsPage" />
+		<item name="pumpShotgunSchematicPage" />
+		<item name="shotgunSlugSchematic"/>
+		<item name="clawHammerSchematic"/>
+		<item name="sledgehammerSchematic"/>
+		<item name="herbalAntibioticsRecipe" />
+		<item name="gravestonesSchematic" />
+		<item name="bulletCraftingSchematic" />
+		<item name="hdtvSchematic" />
+		<item name="oldschooltvSchematic" />
+		<item name="mineHubcapSchematic"/>
+		<item name="mineCandyTinSchematic"/>
+		<item name="mineAirFilterSchematic"/>
+		<item name="mineCookingPotSchematic"/>
+		<item name="rScrapIronPlateMineSchematic"/>
+		<item name="dynamiteSchematic"/>
+		<item name="pipeBombSchematic" />
+		<item name="trapNailMineSchematic"/>
+		<item name="hayFallTrapSchematic" />
+		<item name="grassFallTrapSchematic" />
+		<item name="dirtFallTrapSchematic" />
+		<item name="looseBoardsTrapBlockSchematic"/>
+		<item name="trapGlassBusinessSchematic"/>
+		<item name="pinupSchematic"/>
+		<item name="homeAppliancesSchematic"/>
+		<item name="homeFurnishingsSchematic"/>
+		<item name="bathroomFurnishingsSchematic"/>
+		<item name="homeGardeningSchematic"/>
+		<item name="illegibleAugerSchematic"/>
+		<item name="shockTrapSchematic"/>
+		<item name="fireTrapSchematic"/>
+		<item name="clubSpikedSchematic" />
+		<item name="bikeEngineRecipe" />
+		<item name="minibikesForDumbshitsPage" />
+		<item name="MinibikesForSmartshitsPage"  prob="0.25"/>
+		<item name="MinibikesForToughshitsPage" prob="0.05"/>
+		<item name="nailgunSchematicPage" />
+		<item name="augerSchematicPage" />
+		<item name="chainsawSchematicPage" />
+		<item name="steelAugerSchematicPage" prob="0.05"/>
+		<item name="steelChainsawSchematicPage" prob="0.05"/>
+		<item name="trapAdhesiveSpikeSchematic"/>
+		<item name="tntSchematicSchematic"/>
+		<item name="trapChestSchematic"/>
+		<item name="M.O.A.BSchematic"/>
+		<item name="rocketGrenadeSchematic"/>
+		<item name="bloodDrawKitSchematic" />
+		<item name="trueMiningTNTSchematic"/>
+		<item name="rocketLauncherSchematic"/>
+		<item name="cookingVol1" prob="0.35"/>
+		<item name="cookingVol2" prob="0.35"/>
+		<item name="cookingVol3" prob="0.35"/>
+		<item name="cookingVol4" prob="0.35"/>
+		<item name="cookingVol5" prob="0.35"/>
+		<item name="cookingVol6" prob="0.35"/>
+		<item name="cookingVol7" prob="0.35"/>
+		<item name="cookingVol8" prob="0.15"/>
+		<item name="cookingVol9" prob="0.15"/>
+		<item name="cookingVol10" prob="0.35"/>
+		<item name="betterBedsSchematic" prob="0.35"/>
+		<item name="hdtvSchematic" />
+		<item name="oldschooltvSchematic" />
+		<item name="statuesSchematic" />
+		<item name="purifyingTabletsSchematic" />
+		<item name="diamondUpgradesSchematic" prob="0.05"/>
 	</lootgroup>
 	<lootgroup name="lumberjacks" count="1"  loot_quality_template="baseTemplate">
 		<item name="stoneAxe"/>
@@ -2619,31 +2913,27 @@
 		<item name="stick" count="2,4" prob="0.05"/>
 		<item name="turd" count="1,2" prob="0.05"/>
 	</lootcontainer>
-	<!-- lootcontainer 23 Supply Crate Melee weapons -->
-	<!-- lootcontainer 26 Supply Crate Food -->
-	<!-- lootcontainer 27 Supply Crate Building Supplies -->
-	<!-- lootcontainer 28 Supply Crate Ammo -->
-	<!-- lootcontainer 29 Supply Crate Ranged weapons Day 3 -->
-	<!-- lootcontainer 30 Supply Crate Health -->
-	<!-- lootcontainer 31 Supply Crate Explosives -->
-	<!-- lootcontainer 32 Supply Crate Ranged weapons Day 5 -->
-	<!-- lootcontainer 33 Supply Crate Ranged weapons Day 7 -->
+
 	<!-- Supply Crate General, the normal airdrop -->
-	<lootcontainer id="34" count="3" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate"  open_time="5" loot_quality_template="baseTemplate">
+	<lootcontainer id="34" count="4" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate"   buff="chestTrap" buff_chance="0.000005" open_time="7" loot_quality_template="baseTemplate">
 		<item group="weaponsMilitaryGuns+ammo" prob="0.8"/>
 		<item group="rareBooks" prob="0.1"/>
 		<item group="airdropMedicine" count="1" prob="0.9"/>
 		<item group="questChallenge" count="1" prob="0.4"/>
 		<item group="treasureMaps" count="1" prob="0.08"/>
 		<item group="weaponsBasicGuns+ammo" prob="0.1"/>
-		<item name="compoundBow" prob="0.03"/>
+		<item group="airdropBooks" prob="0.1"/>
 		<item group="rareTools" prob="0.1"/>
 		<item group="craftingTools" count="1" prob="0.035"/>
-		<item group="pistolsLoot" count="1" prob="0.45"/>
+		<item group="pistolsLoot" count="1" prob="0.35"/>
 		<item group="shotgunsLoot" count="1" prob="0.25"/>
-		<item group="sniperrifleLoot" count="1" prob="0.03"/>
+		<item group="sniperrifleLoot" count="1" prob="0.05"/>
 		<item group="huntingrifleLoot" count="1" prob="0.15"/>
 		<item group="assaultrifleLoot" count="1" prob="0.15"/>
+		<item group="airdropfood" count="1" prob="0.4"/>
+		<item group="gunmodsLoot" count="1" prob="0.15"/>
+		<item group="treasureAmmo" count="1" prob="0.25"/>
+		<item group="airdropClothes" count="2" prob="0.4"/>
 	</lootcontainer>
 	<!-- tree hollowed stump, place where people stash things, -->
 	<lootcontainer id="35" count="1" size="4,3" sound_open="UseActions/open_stump" sound_close="UseActions/close_stump" open_time="3" loot_quality_template="baseTemplate">
@@ -2857,7 +3147,7 @@
 		<item group="cookingIngredients" prob="0.4"/>
 		<item group="junkFood"/>
 		<item group="beverages" count="1,2"/>
-		<item name="foodHoney" count="1" prob="0.1"/>
+		<item name="foodHoney" count="1" prob="0.3"/>
 		<item name="paper" count="5,10" prob="0.4"/>
 		<item name="bagOfCharcoal" count="1,2"/>
 	</lootcontainer>

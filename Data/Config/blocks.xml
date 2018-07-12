@@ -6142,8 +6142,7 @@
 	<block id="718" name="cntShippingCrateHero">
 		<property name="CustomIcon" value="cntShippingCrateShamway"/>
 		<property name="DescriptionKey" value="cntLootCrateHeroDesc"/>
-		<property name="Material" value="wood_regular"/>
-		<property name="MaxDamage" value="500"/>
+		<property name="Material" value="shippingCrate"/>
 		<property name="Texture" value="423"/>
 		<drop event="Destroy" count="0"/>
 		<property name="DowngradeBlock" value="cntLootCrateHero"/>
@@ -7430,8 +7429,7 @@
 	<block id="1058" name="cntShippingCrateLabEquipment">
 		<property name="CustomIcon" value="cntShippingCrateShamway"/>
 		<property name="DescriptionKey" value="cntLootCrateLabEquipmentDesc"/>
-		<property name="Material" value="wood_regular"/>
-		<property name="MaxDamage" value="500"/>
+		<property name="Material" value="shippingCrate"/>
 		<property name="Texture" value="423"/>
 		<drop event="Destroy" count="0"/>
 		<property name="DowngradeBlock" value="cntLootCrateLabEquipment"/>
@@ -8052,8 +8050,7 @@
 	<block id="1182" name="cntShippingCrateShamway">
 		<property name="CustomIcon" value="cntShippingCrateShamway"/>
 		<property name="DescriptionKey" value="cntShippingCrateGroupDesc"/>
-		<property name="Material" value="wood_regular"/>
-		<property name="MaxDamage" value="500"/>
+		<property name="Material" value="shippingCrate"/>
 		<property name="Texture" value="423"/>
 		<drop event="Destroy" count="0"/>
 		<property name="DowngradeBlock" value="cntLootCrateShamway"/>
@@ -14338,7 +14335,6 @@
 	<block id="1701" name="supplyCrateBuilding">
 		<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs"/>
 		<property name="Material" value="wood_weak"/>
-		<property name="MaxDamage" value="500"/>
 		<property name="Texture" value="419,419,423,423,423,423"/>
 		<property name="ParticleOnDeath" value="supply_crate_gib_Prefab"/>
 		<drop event="Destroy" name="stick" count="4"/>
@@ -14355,9 +14351,8 @@
 	</block>
 	<block id="1703" name="supplyCrateHealthandArmor">
 		<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs"/>
-		<property name="Material" value="wood_weak"/>
+		<property name="Material" value="shippingCrate"/>
 		<property name="Texture" value="284,284,423,423,423,423"/>
-		<property name="MaxDamage" value="500"/>
 		<property name="ParticleOnDeath" value="supply_crate_gib_Prefab"/>
 		<drop event="Destroy" name="stick" count="4"/>
 		<property name="DowngradeBlock" value="lootCrateHealthandArmor"/>
@@ -14373,9 +14368,8 @@
 	</block>
 	<block id="1705" name="supplyCrateAmmo">
 		<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs"/>
-		<property name="Material" value="wood_weak"/>
+		<property name="Material" value="shippingCrate"/>
 		<property name="Texture" value="418,418,423,423,423,423"/>
-		<property name="MaxDamage" value="500"/>
 		<property name="ParticleOnDeath" value="supply_crate_gib_Prefab"/>
 		<drop event="Destroy" name="stick" count="4"/>
 		<property name="DowngradeBlock" value="lootCrateAmmo"/>
@@ -14391,9 +14385,8 @@
 	</block>
 	<block id="1707" name="supplyCrateFoodandDrink">
 		<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs"/>
-		<property name="Material" value="wood_weak"/>
+		<property name="Material" value="shippingCrate"/>
 		<property name="Texture" value="421,421,423,423,423,423"/>
-		<property name="MaxDamage" value="500"/>
 		<property name="ParticleOnDeath" value="supply_crate_gib_Prefab"/>
 		<drop event="Destroy" name="stick" count="4"/>
 		<property name="DowngradeBlock" value="lootCrateFoodandDrink"/>
@@ -14410,9 +14403,8 @@
 	<block id="1709" name="supplyCrateWeapons">
 		<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs"/>
 		<property name="CreativeMode" value="None"/>
-		<property name="Material" value="wood_weak"/>
+		<property name="Material" value="shippingCrate"/>
 		<property name="Texture" value="422,422,423,423,423,423"/>
-		<property name="MaxDamage" value="500"/>
 		<property name="ParticleOnDeath" value="supply_crate_gib_Prefab"/>
 		<drop event="Destroy" name="stick" count="4"/>
 		<property name="DowngradeBlock" value="lootCrateWeapons"/>
@@ -14430,9 +14422,8 @@
 	<block id="1711" name="supplyCrateBooks">
 		<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs"/>
 		<property name="CreativeMode" value="None"/>
-		<property name="Material" value="wood_weak"/>
+		<property name="Material" value="shippingCrate"/>
 		<property name="Texture" value="572,572,423,423,423,423"/>
-		<property name="MaxDamage" value="500"/>
 		<property name="ParticleOnDeath" value="supply_crate_gib_Prefab"/>
 		<drop event="Destroy" name="stick" count="4"/>
 		<property name="DowngradeBlock" value="lootCrateBooks"/>
@@ -18001,7 +17992,6 @@
 			<property name="wood" value="5"/>
 		</property>
 		<drop event="Destroy" count="0"/>
-		<property name="TakeDelay" value="15"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="TakeDelay" value="15"/>
 	</block>
@@ -18019,7 +18009,6 @@
 			<property name="wood" value="5"/>
 		</property>
 		<drop event="Destroy" count="0"/>
-		<property name="TakeDelay" value="15"/>
 		<property name="Group" value="Decor/Miscellaneous"/>
 		<property name="TakeDelay" value="15"/>
 	</block>
@@ -20911,9 +20900,9 @@
 		<property class="RepairItems">
 			<property name="forgedIron" value="5"/>
 		</property>
-		<drop event="Harvest" name="forgedIron" count="2" tool_category="Disassemble"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
 		<drop event="Destroy" name="animalTrapEmpty" count="1"/>
-		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
+		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="animalTrapEmptyDesc"/>
 		<property name="TakeDelay" value="15"/>
 		<property name="Group" value="Building"/>
@@ -20924,7 +20913,7 @@
 	<block id="1547" name="animalTrapWaiting">
 		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
-		<property name="Model" value="#RHTraps?animalTrap"/>
+		<property name="Model" value="#RHTraps?animalTrapWaiting"/>
 		<property name="CustomIcon" value="animalTrap"/>
 		<property name="Material" value="woodgMed"/>
 		<property name="Stacknumber" value="1"/>
@@ -20938,7 +20927,7 @@
 		</property>
 		<drop event="Harvest" name="forgedIron" count="2" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
-		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
+		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="DescriptionKey" value="animalTrapEmptyDesc"/>
 		<property name="TakeDelay" value="15"/>
 		<property name="Group" value="Building"/>
@@ -20949,7 +20938,7 @@
 	<block id="2037" name="animalTrapFull">
 		<property name="Extends" value="sdxMaster"/>
 		<property name="Shape" value="ModelEntity"/>
-		<property name="Model" value="#RHTraps?animalTrap"/>
+		<property name="Model" value="#RHTraps?animalTrapFull"/>
 		<property name="Material" value="woodgMed"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property name="Stacknumber" value="1"/>
@@ -20960,9 +20949,9 @@
 		<property class="RepairItems">
 			<property name="forgedIron" value="5"/>
 		</property>
-		<drop event="Harvest" name="forgedIron" count="2" tool_category="Disassemble"/>
+		<drop event="Harvest" count="0" tool_category="Disassemble"/>
 		<drop event="Destroy" count="0"/>
-		<drop event="Fall" name="woodDebris" count="1" prob="0.75" stick_chance="1"/>
+		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="Group" value="Building"/>
 	</block>
 	<block id="1753" name="GoreBlock1Prefab1">
@@ -20983,13 +20972,14 @@
 		<drop event="Destroy" name="animalFat" count="0,1"/>
 	</block>
 	<block id="2043" name="cntShippingCrateShamway1">
-		<property name="CustomIcon" value="cntShippingCrateShamway" />
-		<property name="DescriptionKey" value="cntShippingCrateGroupDesc" />
-		<property name="MaxDamage" value="800" />
-		<property name="Material" value="wood_regular" />
+		<property name="CustomIcon" value="cntShippingCrateShamway"/>
+		<property name="DescriptionKey" value="cntShippingCrateGroupDesc"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#RHSpecialItems?emergencySupplies"/>
-		<drop event="Destroy" count="0" />
+		<property name="MaxDamage" value="800" />
+		<property name="Material" value="shippingCrate"/>
+		<property name="Texture" value="423"/>
+		<drop event="Destroy" count="0"/>
 		<property name="DowngradeBlock" value="cntLootCrateShamway1" />
 	</block>
 	<block id="2042" name="cntLootCrateShamway1">

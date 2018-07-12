@@ -28529,6 +28529,7 @@
 	<item id="1671" name="animalBait">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab" />
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+		<property name="Degradation" value="5000" param1="false" />
 		<property name="HoldType" value="31" />
 		<property name="Material" value="organic" />
 		<property name="Stacknumber" value="100" />

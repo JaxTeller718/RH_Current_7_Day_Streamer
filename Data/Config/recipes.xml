@@ -4330,7 +4330,7 @@
 		<ingredient name="treePlantedMaple1m" count="5"/>
 	</recipe>
 	<recipe name="trailMix" count="6" craft_area="mortarAndPestle" craft_time="120">
-		<ingredient name="blueberries" count="5"/>
+		<ingredient name="wheat" count="5"/>
 		<ingredient name="corn" count="5"/>
 		<ingredient name="candyBar" count="1"/>
 		<ingredient name="treePlantedMountainPine1m" count="5"/>

@@ -2905,6 +2905,12 @@ Patch 4.0 RC  Notes       6/29/2018
 
 -Adjusted Buffs for Snake Bit so it doesnt hit wellness as much
 
+
+
+Patch 4.0 Release  Notes       7/9/2018
+
+
+
 -Fixed Incorrect Herd Names in Quest
 
 -Reduced Gun Loot
@@ -2926,3 +2932,135 @@ Patch 4.0 RC  Notes       6/29/2018
 -Removed duplicate Spikes recipe
 
 -Added quest for Survivor Machete in place of Bow Quest
+
+-Removed Prisoner and Ghoul Hordes due to null. Replaced with Medical and Biker Horde
+
+-Added weight to items that didnt have them like mech parts etc at 0.5 to 1 weight
+
+-Fixed some Localization and changed Opening quest Prompt
+
+-Edited 3 POIs which had no sleepers
+
+-Fixed Ultimate Survival Quest and added end game rewards
+
+-Added Fixed Notre Damn Poi
+
+-Added missing icons
+
+-Doubled the xp Locksmith needs to level
+
+-Removed Duplicate Research Desk Perk
+
+-Fixed Localizations
+
+-Removed several unneeded recipes from upgraded block paths
+
+-Removed Unencumbered from Main screen
+
+-Balanced out the new RH spikes
+
+-Adjusted recipe of Spikes
+
+-Removed Assault Rifle Incendiary Ammo option due to glitched particles upon firing
+
+-Removed flamethrower completely (works in SP but crashes MP servers)
+
+-Adjusted Spikey Trap Damages
+
+-Fixed an issue where recipes in Medical Class were not completing due to recipe requirements
+
+-Fixed Medic Quest looping back around
+
+-Fixed Blacksmith Forge from staying lit forever
+
+-Removed New Snake Bit buff and added old one back due to the current one not being able to be cured
+
+-Handful of Insects now Gives 2 Food
+
+-Resting Mat now heals better
+
+
+Patch 4.0.1  Notes       7/10/2018
+
+
+-Added Enlarged Skill Windows
+
+-Added Scalpel, Blunderbuss, Cleaver, Kukri and Survivor Machete to Primitive Crafting so they can level and craft them.
+
+-Added Sirillions New UI
+
+-Fixed Incorrect Level of Skill for Trioxin
+
+-Increased body turn time on ghouls slightly to avoid poofing corpses
+
+-Raised XP reward for quests slightly
+
+-Raised values of meat slightly to balance tainted meat
+
+-Hive Zombies Give Slightly more XP
+
+-Resting Mat Heals for More
+
+-Removed Aloe Cream from Mortar and Pestle due to quest conflict
+
+-Fixed dysenery buff so it shows proper heals
+
+-Trioxin Removed from Medical Skills. It now must be purchased at the appropriate level and does not unlock at level 1
+
+-Lockpicks are no longer sellable
+
+-Archery Perk 4 now displays correctly
+
+-Stone Hammer is now a proper Construction Tool
+
+
+
+Patch 4.0.2  Notes       7/11/2018
+
+
+-Big Bertha has been sent ot the cornfields and told to take a chill pill
+
+-Headshots Damage has been increased for ALL Right Click Power Swings on Melee Weapons but will also take more stamina per use
+
+-Added Double Body Damage to ALL melee Power Swings
+
+-Stunned and Bleeding buffs will now trigger on 90 percent of all Power Swings
+
+-Opening Quest Now Rewards a level 150 Stone Axe instead of 100 and a level 300 Wooden Club Instead of 150
+
+-All Shipping Crates and World Crates now have Health of 500 to Encourage Picking up the Boards with E Kep with hands or tools
+
+-Headshot and Damage Adjustments to the Magnum, Pistol and SMG to make them a bit more useable
+
+-Added screws as a need to repair scrap iron and iron stage of block building
+
+-New Recipes: Fried Insects in a Can and Jar can be cooked at campfires and is the perfect beginner food.
+
+-Replaced recipes requiring rebar frames with just rebar
+
+-Added Material and weight to Pipe and Lug Wrench
+
+-Infections Now take a small amount of wellness from you. Recovering with a cure will grant it back.
+
+-Localization fixes for cooking and blacksmith hammer
+
+-Added new item Animal Trap Bait. Made from jerky and trail mix it can be used to bait traps by right clicking on the trap.
+
+-Airdrops Now Give Better Supplies. More rare books, more ammo, more rare clothing, more food. More Infection cures. So make sure to grab every one
+
+-Oh and every now and then a bandit will commandeer the plane and drop a decoy box. This box has a 0.00005 percent chance of exploding and killing you. Enjoy!
+
+-Axes and Pickaxes now have a power swing as well but come at a great stamina cost
+
+-Fixed a hive poi which was not spawning any hives
+
+-Added DanCapos fixes for Quest UI
+
+
+
+KNOWN ISSUES/TO DO
+
+
+-Add more weapons and guns
+
+-Add some immersion models (food etc)

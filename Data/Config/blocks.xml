@@ -33,7 +33,7 @@
 		<drop event="Harvest" name="limestone" count="12" tool_category="harvestingTools"/>
 		<drop event="Harvest" name="rockSalt" count="1" prob="0.013" tool_category="harvestingTools"/>
 		<drop event="Harvest" name="scrapLead" count="2" prob="0.033" tool_category="Miner"/>
-		<drop event="Harvest" name="scrapCarbon" count="1" prob="0.033" tool_category="Miner"/>
+		<drop event="Harvest" name="scrapCarbon" count="3" prob="0.053" tool_category="Miner"/>
 		<drop event="Harvest" name="coal" count="3" prob="0.023" tool_category="Miner"/>
 		<drop event="Harvest" name="potassiumNitratePowder" count="3" prob="0.023" tool_category="Miner"/>
 		<drop event="Harvest" name="rockSalt" count="2" prob="0.033" tool_category="Miner"/>

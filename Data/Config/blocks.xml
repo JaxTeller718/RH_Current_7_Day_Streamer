@@ -33,7 +33,8 @@
 		<drop event="Harvest" name="limestone" count="12" tool_category="harvestingTools"/>
 		<drop event="Harvest" name="rockSalt" count="1" prob="0.013" tool_category="harvestingTools"/>
 		<drop event="Harvest" name="scrapLead" count="2" prob="0.033" tool_category="Miner"/>
-		<drop event="Harvest" name="scrapCarbon" count="3" prob="0.053" tool_category="Miner"/>
+		<drop event="Harvest" name="scrapCarbon" count="8" prob="0.330" tool_category="Miner"/> <!-- Changed by Hated -->
+<!--		<drop event="Harvest" name="scrapCarbon" count="1" prob="0.033" tool_category="Miner"/> -->
 		<drop event="Harvest" name="coal" count="3" prob="0.023" tool_category="Miner"/>
 		<drop event="Harvest" name="potassiumNitratePowder" count="3" prob="0.023" tool_category="Miner"/>
 		<drop event="Harvest" name="rockSalt" count="2" prob="0.033" tool_category="Miner"/>
@@ -5388,6 +5389,8 @@
 		<drop event="Harvest" name="coal" count="3" prob="0.33" tool_category="harvestingTools"/>
 		<drop event="Harvest" name="potassiumNitratePowder" count="2" prob="0.33" tool_category="Miner"/>
 		<drop event="Harvest" name="scrapLead" count="2" prob="0.33" tool_category="Miner"/>
+		<drop event="Harvest" name="scrapCarbon" count="4" prob="0.330" tool_category="Miner"/> <!-- Added by Hated -->
+
 		<drop event="Destroy" count="0"/>
 		<property name="DowngradeBlock" value="rockResourceBroke1"/>
 		<property name="Map.Color" value="120,120,120"/>
@@ -13232,9 +13235,12 @@
 		<property name="CustomIcon" value="composter"/>
 		<property name="StabilitySupport" value="false"/>
 		<property name="MultiBlockDim" value="2,2,1"/>
-		<property name="Class" value="UpgradeRated"/>
-		<property name="UpgradeRated.ToBlock" value="Full_Composter"/>
-		<property name="UpgradeRated.Rate" value="420"/>
+		<property name="Class" value="PlantGrowing"/>
+		<property name="PlantGrowing.FertileLevel" value="0"/>
+		<property name="PlantGrowing.Next" value="Full_Composter"/>
+		<property name="PlantGrowing.GrowthRate" value="240"/>
+		<property name="PlantGrowing.LightLevelStay" value="0"/>
+		<property name="PlantGrowing.IsRandom" value="false"/>
 		<property class="RepairItems">
 			<property name="wood" value="10"/>
 		</property>
@@ -16001,9 +16007,12 @@
 		<property name="CustomIcon" value="chickenCoopFull"/>
 		<property name="MultiBlockDim" value="2,3,3"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="Class" value="UpgradeRated"/>
-		<property name="UpgradeRated.ToBlock" value="chickenCoopReady"/>
-		<property name="UpgradeRated.Rate" value="420"/>
+		<property name="Class" value="PlantGrowing"/>
+		<property name="PlantGrowing.FertileLevel" value="0"/>
+		<property name="PlantGrowing.Next" value="chickenCoopReady"/>
+		<property name="PlantGrowing.GrowthRate" value="240"/>
+		<property name="PlantGrowing.LightLevelStay" value="0"/>
+		<property name="PlantGrowing.IsRandom" value="false"/>
 		<property class="RepairItems">
 			<property name="wood" value="15"/>
 			<property name="nail" value="10"/>
@@ -16201,7 +16210,7 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.Next" value="rainCatcherFull"/>
-		<property name="PlantGrowing.GrowthRate" value="420"/>
+		<property name="PlantGrowing.GrowthRate" value="240"/>
 		<property name="PlantGrowing.LightLevelStay" value="0"/>
 		<property name="PlantGrowing.IsRandom" value="false"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
@@ -20793,9 +20802,12 @@
 		<property name="Stacknumber" value="1"/>
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="MultiBlockDim" value="1,2,1"/>
-		<property name="Class" value="UpgradeRated"/>
-		<property name="UpgradeRated.ToBlock" value="beehiveFull"/>
-		<property name="UpgradeRated.Rate" value="420"/>
+		<property name="Class" value="PlantGrowing"/>
+		<property name="PlantGrowing.FertileLevel" value="0"/>
+		<property name="PlantGrowing.Next" value="beehiveFull"/>
+		<property name="PlantGrowing.GrowthRate" value="240"/>
+		<property name="PlantGrowing.LightLevelStay" value="0"/>
+		<property name="PlantGrowing.IsRandom" value="false"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property class="RepairItems">
 			<property name="wood" value="20"/>
@@ -20918,9 +20930,12 @@
 		<property name="Material" value="woodgMed"/>
 		<property name="Stacknumber" value="1"/>
 		<property name="OnlySimpleRotations" value="true"/>
-		<property name="Class" value="UpgradeRated"/>
-		<property name="UpgradeRated.ToBlock" value="animalTrapFull"/>
-		<property name="UpgradeRated.Rate" value="420"/>
+		<property name="Class" value="PlantGrowing"/>
+		<property name="PlantGrowing.FertileLevel" value="0"/>
+		<property name="PlantGrowing.Next" value="animalTrapFull"/>
+		<property name="PlantGrowing.GrowthRate" value="240"/>
+		<property name="PlantGrowing.LightLevelStay" value="0"/>
+		<property name="PlantGrowing.IsRandom" value="false"/>
 		<property name="Place" value="TowardsPlacerInverted"/>
 		<property class="RepairItems">
 			<property name="forgedIron" value="5"/>
@@ -24036,7 +24051,7 @@
 		<property name="Shape" value="New"/>
 		<property name="Model" value="ramp_outside_corner"/>
 		<property class="UpgradeBlock">
-			<property name="ToBlock" value="flagstoneCNRRampFiller"/>
+			<property name="ToBlock" value="flagstoneCNRFull"/> <!-- Changed by Hated -->
 			<property name="Item" value="cobblestones"/>
 			<property name="ItemCount" value="10"/>
 			<property name="UpgradeHitCount" value="4"/>
@@ -25450,7 +25465,9 @@
 	</block>
 	<block id="1778" name="stainlessSteelCNRRound">
 		<property name="Extends" value="stainlessSteelMaster"/>
+		<property name="Shape" value="New"/>
 		<property name="Model" value="corner_round1m"/>
+		<property name="ImposterExchange" value="imposterBlock" param1="91"/>
 		<property name="DowngradeBlock" value="rConcreteCNRRound"/>
 	</block>
 	<!-- CORNER ROUND TOP -->

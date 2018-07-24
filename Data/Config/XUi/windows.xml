@@ -18,9 +18,9 @@
 			<SMX_Button_2 name="btnSave" caption_key="xuiMenuSave" />
 			<SMX_Button_3 name="btnExit" caption_key="xuiMenuExit" />
 		</grid>
-		<label name="Edition" depth="2" pos="0, -470" pivot="center" size="250,33" text="Current Development Version" font_size="14" effect="outline" color="[white]" justify="center" />
+		<label name="Edition" depth="2" pos="0, -470" pivot="center" size="250,33" text="7 Day Streamer" font_size="32" effect="outline" color="[white]" justify="center" />
 		<!-- Set Edition here -->
-		<label name="Version" depth="2" pos="0, -490" pivot="center" size="250,33" text="SMX-A16.4B8RX" font_size="14" effect="outline" color="[white]" justify="center" />
+		<label name="Version" depth="2" pos="0, -490" pivot="center" size="250,33" text="4.0.3" font_size="32" effect="outline" color="[white]" justify="center" />
 		<!-- Set version here -->
 		<texture style="SMXInfoHeader" depth="2" pos="800,300" pivot="center" />
 		<label name="InfoHeader" depth="3" pos="800,360" pivot="center" size="500,50" text="HELPFUL HINTS" font_size="40" effect="outline" color="[white]" justify="center" />

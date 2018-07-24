@@ -279,9 +279,11 @@
 	</quest>
 	<!-- The Road to Concrete 2 - Craft Dry Cement /> -->
 	<quest id="quest_stonegrinder2" group_name_key="quest_stonegrinder" name_key="quest_stonegrinder2" subtitle_key="quest_stonegrinder2_subtitle"  description_key="quest_stonegrinder2_description" 	icon="ui_game_symbol_hammer" category_key="quest" difficulty="medium">
-		<objective type="FetchKeep" id="crushedSand" value="400"/>
-		<objective type="FetchKeep" id="limestone" value="500"/>
-		<objective type="FetchKeep" id="crushedGravel" value="300"/>
+		<objective type="FetchKeep" id="rockSmall" value="300"/>
+		<objective type="FetchKeep" id="crushedSand" value="500"/>
+		<objective type="FetchKeep" id="limestone" value="200"/>
+		<objective type="FetchKeep" id="gravel" value="6"/>
+		<objective type="FetchKeep" id="crushedGravel" value="150"/>
 		<objective type="Craft" id="cement" value="50"/>
 		<reward type="Exp" value="1000"/>
 		<reward type="Quest" id="quest_stonegrinder3"/>
@@ -1553,7 +1555,7 @@
 		<objective type="FetchKeep" id="tarp" value="3"/>
 		<objective type="Craft" id="Empty_Composter" value="1"/>
 		<objective type="BlockPlace" id="Empty_Composter" value="1"/>
-		<objective type="BlockUpgrade" id="Composter_Filling" value="1"/>
+		<objective type="BlockUpgrade" id="Empty_Composter" value="1"/>
 		<reward type="Item" id="fertilizer" value="15"/>
 		<reward type="SkillPoints" value="10"/>
 		<reward type="Exp" value="3000"/>

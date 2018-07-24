@@ -1277,6 +1277,10 @@
 	<recipe name="scrapLead" count="1" craft_area="blacksmithsForge" material_based="true" craft_time="1" craft_exp_gain="0">
 		<ingredient name="unit_lead" count="1"/>
 	</recipe>
+	<recipe name="anvil" count="1" craft_area="forge" material_based="true">
+		<ingredient name="unit_iron" count="400"/>
+		<ingredient name="unit_clay" count="40"/>
+	</recipe>
 	<recipe name="anvil" count="1" craft_area="blacksmithsForge" material_based="true">
 		<ingredient name="unit_iron" count="400"/>
 		<ingredient name="unit_clay" count="40"/>
@@ -1419,8 +1423,8 @@
 	<recipe name="scrapIron" count="1" craft_area="blacksmithsForge" material_based="true" craft_time="1" craft_exp_gain="0">
 		<ingredient name="unit_iron" count="1"/>
 	</recipe>
-	<recipe name="forgedSteel" count="1" craft_area="blacksmithsForge" craft_tool="forgeCrucible" material_based="true">
-		<ingredient name="unit_carbon" count="20"/>
+	<recipe name="forgedSteel" count="1" craft_area="blacksmithsForge" craft_tool="forgeCrucible"  craft_time="1" material_based="true">
+		<ingredient name="unit_carbon" count="10"/>
 		<ingredient name="unit_clay" count="10"/>
 		<ingredient name="unit_iron" count="10"/>
 	</recipe>
@@ -5187,7 +5191,11 @@
 		<ingredient name="ink" count="15"/>
 		<ingredient name="paper" count="15"/>
 	</recipe>
-
+	<recipe name="qc_thinkofthechildren" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
+		<ingredient name="knowledgePoint" count="90"/>
+		<ingredient name="ink" count="15"/>
+		<ingredient name="paper" count="15"/>
+	</recipe>
 	<recipe name="qc_diagnosiszombie" count="1" craft_time="15" craft_area="ResearchDesk" craft_tool="inkPen">
 		<ingredient name="knowledgePoint" count="90"/>
 		<ingredient name="ink" count="15"/>
@@ -6025,12 +6033,6 @@
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
 	<!-- STONE GRINDER -->
-	<recipe name="crushedSand" count="5" craft_area="stoneGrinder">
-		<ingredient name="rockSmall" count="25"/>
-	</recipe>
-	<recipe name="crushedGravel" count="2" craft_area="stoneGrinder">
-		<ingredient name="gravel" count="1"/>
-	</recipe>
 	<recipe name="sand" count="10" craft_area="stoneGrinder">
 		<ingredient name="crushedSand" count="120"/>
 	</recipe>
@@ -6039,11 +6041,17 @@
 		<ingredient name="rockSmall" count="200"/>
 		<ingredient name="oilShale" count="50"/>
 	</recipe>
-	<recipe name="cement" count="10" craft_area="stoneGrinder">
-		<ingredient name="crushedSand" count="80"/>
-		<ingredient name="limestone" count="80"/>
-		<ingredient name="crushedGravel" count="50"/>
+	<recipe name="crushedSand" count="5" craft_area="stoneGrinder">
+		<ingredient name="rockSmall" count="10"/>
 	</recipe>
+	<recipe name="crushedGravel" count="5" craft_area="stoneGrinder">
+		<ingredient name="gravel" count="1"/>
+	</recipe>	
+	<recipe name="cement" count="10" craft_area="stoneGrinder">
+		<ingredient name="crushedSand" count="40"/>
+		<ingredient name="limestone" count="40"/>
+		<ingredient name="crushedGravel" count="30"/>
+	</recipe>	
 	<recipe name="gravel" count="5" craft_area="stoneGrinder">
 		<ingredient name="crushedSand" count="50"/>
 		<ingredient name="rockSmall" count="50"/>
@@ -6052,11 +6060,6 @@
 		<ingredient name="crushedSand" count="100"/>
 		<ingredient name="rockSmall" count="180"/>
 		<ingredient name="cement" count="40"/>
-	</recipe>
-	<recipe name="asphalt" count="10" craft_area="stoneGrinder">
-		<ingredient name="crushedSand" count="80"/>
-		<ingredient name="rockSmall" count="200"/>
-		<ingredient name="oilShale" count="50"/>
 	</recipe>
 	<!-- CARPENTER BENCH -->
 	<recipe name="wood" count="3" craft_area="carpentryStation" craft_tool="saw">

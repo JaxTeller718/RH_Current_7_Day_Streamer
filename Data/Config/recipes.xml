@@ -6246,4 +6246,8 @@
 		<ingredient name="trailMix" count="1"/>
 		<ingredient name="jerky" count="1"/>
 	</recipe>
+  <recipe name="pan" count="1" craft_area="advancedWorkbench">
+    <ingredient name="forgedIron" count="15"/>
+    <ingredient name="handle" count="1"/>
+  </recipe>
 </recipes>
